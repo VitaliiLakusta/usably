@@ -1,12 +1,24 @@
-* 
+*
 {
 	box-sizing: border-box;
 }
 
-.indicator-title {
+.container {
 
 }
 
+.indicator-title {
+    color: #337ab7;
+}
+
 .indicator-desc {
-	
+	margin-top: 25px;
+}
+
+.indicator-overview-charts {
+    margin-top: 35px;
+}
+
+.indicator-rate {
+    /*padding-left: 50px;*/
 }
