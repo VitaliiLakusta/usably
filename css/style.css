@@ -23,7 +23,7 @@
     /*padding-left: 50px;*/
 }
 
-.tab-content {
+.single-issue {
 	float: left;
 	padding: 15px;
 	border: 1px solid #ddd;
@@ -66,7 +66,7 @@
 	transition: all .4s ease;
 }
 
-.issue-list-indicators a li:hover, .issue-list-indicators a:hover {
+.issue-list-indicators a li:hover, .issue-list-indicators a:hover, .issue-list-indicators .active {
 	background-color: #A2D8F4;
 	color: #000;
 	text-decoration: none;
@@ -117,4 +117,8 @@
     color: #000;
     background-color: #81C1E2;
     text-decoration: none;
+}
+
+.fa {
+	padding-right: 5px;
 }
