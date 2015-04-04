@@ -11,9 +11,6 @@
     color: #337ab7;
 }
 
-.indicator-desc {
-	margin-top: 25px;
-}
 
 .indicator-overview-charts {
     margin-top: 35px;
@@ -23,7 +20,7 @@
     /*padding-left: 50px;*/
 }
 
-.single-issue {
+.indicator-desc {
 	float: left;
 	padding: 15px;
 	border: 1px solid #ddd;
@@ -31,6 +28,7 @@
 	border-left-color: transparent;
 	border-radius: 0 0 4px 4px;
 }
+
 
 .nav-tabs li:first-child {
 	border-left-color: transparent;
@@ -121,4 +119,33 @@
 
 .fa {
 	padding-right: 5px;
+}
+
+
+.tabs-left, .tabs-right {
+  border-bottom: none;
+  padding-top: 2px;
+}
+.tabs-left {
+  border-right: 1px solid #ddd;
+}
+.tabs-left>li, .tabs-right>li {
+  float: none;
+  margin-bottom: 2px;
+}
+.tabs-left>li {
+  margin-right: -1px;
+}
+
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+  border-bottom-color: #ddd;
+  border-right-color: transparent;
+}
+
+.tabs-left>li>a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display:block;
 }
