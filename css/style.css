@@ -70,8 +70,8 @@
 }
 
 .issue-list-indicators li a {
+	display: block;
 	margin-left: 10px;
-	line-height: 50px;
 	text-decoration: none;
 }
 
