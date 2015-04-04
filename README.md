@@ -6,13 +6,13 @@ Usab.ly - the main project for TLU integrated module of four courses. Usab.ly in
 
 ## Technologies
 * Backend:
-  ** PHP with Laravel Framework
-  ** MySQL
+  - _PHP with Laravel Framework
+  - _MySQL
 * Frontend:
-  ** HTML/CSS/Javascript with Bootstrap
-  ** jQuery for DOM manipulation
-  ** AJAX requests to APIs
-  ** Javascript chart libraries (e.g. chart.js, d3 etc.)
+	- _HTML/CSS/Javascript with Bootstrap
+	- _jQuery for DOM manipulation
+	- _AJAX requests to APIs
+	- _Javascript chart libraries (e.g. chart.js, d3 etc.)
 * Other:
-  ** Google Analytics API
-  ** Google Tag Manager API? (not sure yet)
+	- _Google Analytics API
+	- _Google Tag Manager API? (not sure yet)
