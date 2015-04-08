@@ -3,9 +3,6 @@
 	box-sizing: border-box;
 }
 
-.row {
-	margin: 20px;
-}
 
 .indicator-title {
     color: #337ab7;
@@ -25,73 +22,13 @@
   
 }
 
-.issue-list-right {
-	padding-left: 0;
-}
-
-.issue-list-left {
-	padding: 0;
-	border: 1px solid #ddd;
-	width: 23%;
-}
-
-.issue-list-left h3 {
-	padding-left: 15px;
-}
-
-.issue-list-indicators {
-	padding-left: 0;
-	margin-bottom: 0;
-}
-
-.issue-list-indicators li {
-    list-style-type: none;
-    line-height: 50px;
-    border-top: 1px solid #ddd;
-    padding: 0;
-	-moz-transition: all .4s ease;
-	-ms-transition: all .4s ease;
-	-o-transition: all .4s ease;
-	transition: all .4s ease;
-}
-
-.issue-list-indicators li:hover {
-	background-color: #B5D7EF;	
-	color: #000;
-}
-
-.issue-list-indicators li a {
-	display: block;
-	margin-left: 10px;
-	text-decoration: none;
-}
-
-.issue-list-indicators li a:hover {
-	text-decoration: none;
-	color: #000;
-}
-
-.issue-list-indicators .active {
-	background-color: #E3EEF4;
-	color: #000;
-	text-decoration: none;
-}
-
-.issue-list-indicators a:active {
-    text-decoration: none;
-}
-
-.issue-list-indicators li a p {
-	margin: 0;
-	padding-left: 15px;
-}
-
 .issue-list-desc{
 	padding: 10px 5px;
 }
 
 .issue {
 	border-bottom: 1px solid #ddd;
+	padding: 5px 15px;
 }
 
 .issue div {
@@ -104,48 +41,23 @@
 
 .panel-danger > .issue-heading {
 	background-color: #DB524A;
+
 	background-image: none;
+}
+
+.panel .issue-heading {
 	color: #fff;
 	font-weight: bold;
 	font-size: 17px;
 }
 
-.learn-more
- {
- 	float: right;
-	position: relative;
-	text-decoration: none;
-	padding: 5px;
-	margin-top: 12px;
-	display: block;
-	color: #000;
-	font-size: 11px;
-	-webkit-box-shadow: 0px 0px 1px #364361;
-	-moz-box-shadow: 0px 0px 1px #364361;
-	box-shadow: 0px 0px 1px #364361;
-	-moz-transition: all .4s ease;
-	-ms-transition: all .4s ease;
-	-o-transition: all .4s ease;
-	transition: all .4s ease;
-}
-
-.learn-more:active {
-    -webkit-box-shadow: 0px 0px 2px #364361;
-    -moz-box-shadow: 0px 0px 2px #364361;
-    box-shadow: 0px 0px 2px #364361;
-    position: relative;
-    top: 2px;
-    color: #3B3176;
-}
-
-.learn-more:hover {
-    color: #000;
-    background-color: #81C1E2;
-    text-decoration: none;
+.panel-danger {
+	border-color: #DB524A;
 }
 
 .fa {
 	padding-right: 5px;
+	padding-left: 5px;
 }
 
 .nav-tabs {
@@ -180,29 +92,61 @@ border: none;
 	pointer-events: none;
 }
 
-.mark-issue {
+.issue .issue-check {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.issue .mark-issue {
 	color: #6CBF6B;
-	font-size: 15px;
-	font-weight: 400;
 }
 
-.remove-issue {
+.issue .remove-issue {
 	color: #DEDEDE;
-	font-size: 15px;
-	font-weight: 400;
 }
 
-.issue-check label {
+.learn-more
+ {
+ 	float: right;
+	position: relative;
+	text-decoration: none;
+	display: block;
+	margin-top: 10px;
+}
+
+.learn-more a {
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+	font-size: 16px;
+	color: #2E77B5;
+}
+
+.learn-more a:active {
+    position: relative;
+    top: 2px;
+    color: #3B3176;
+}
+
+.learn-more a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.issue .issue-check label {
 	position: relative;
 	top: -3px;
 	margin: 10px 5px 10px;
 	font-weight: 400;
 }
 
-.issue-check input[type=checkbox] {
+.issue .issue-check input[type=checkbox] {
 	width: 16px;
 	height: 16px;
 }
+
+
 
 
 /*
