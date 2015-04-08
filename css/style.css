@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 
-.container {
+.row {
 	margin: 20px;
 }
 
@@ -21,17 +21,8 @@
 }
 
 .indicator-desc {
-	float: left;
 	padding: 15px;
-	border: 1px solid #ddd;
-	border-top-color: transparent;
-	border-left-color: transparent;
-	border-radius: 0 0 4px 4px;
-}
-
-
-.nav-tabs li:first-child {
-	border-left-color: transparent;
+  
 }
 
 .issue-list-right {
@@ -100,8 +91,23 @@
 }
 
 .issue {
-	float: left;
 	border-bottom: 1px solid #ddd;
+}
+
+.issue div {
+	padding: 0;
+}
+
+.issue small {
+	font-size: 80%;
+}
+
+.panel-danger > .issue-heading {
+	background-color: #DB524A;
+	background-image: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
 }
 
 .learn-more
@@ -142,37 +148,123 @@
 	padding-right: 5px;
 }
 
-
-.tabs-left, .tabs-right {
-  border-bottom: none;
-  padding-top: 2px;
-}
-.tabs-left {
-  border-right: 1px solid #ddd;
-}
-.tabs-left>li, .tabs-right>li {
-  float: none;
-  margin-bottom: 2px;
-}
-.tabs-left>li {
-  margin-right: -1px;
+.nav-tabs {
+	border: 1px solid #E9E9E9;
+	border-radius: 4px;	
+	background-color: #F8F8F8;
 }
 
-.tabs-left>li.active>a,
-.tabs-left>li.active>a:hover,
-.tabs-left>li.active>a:focus {
-  border-bottom-color: #ddd;
-  border-right-color: transparent;
+.nav-tabs li a {
+	color: #252525;
+	font-weight: bold;
 }
 
-.tabs-left>li>a {
-  border-radius: 4px 0 0 4px;
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+	color: #000;
+	border: none;
+	background-color: #E7E7E7;
+}
+
+.nav-tabs>li>a {
+border: none;
+  border-radius: 0;
   margin-right: 0;
   display:block;
+  padding: 15px 15px;
+}
+
+.nav-tabs>li:first-child a {
+	color: #A5A5A5;
+	pointer-events: none;
+}
+
+.mark-issue {
+	color: #6CBF6B;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.remove-issue {
+	color: #DEDEDE;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.issue-check label {
+	position: relative;
+	top: -3px;
+	margin: 10px 5px 10px;
+	font-weight: 400;
+}
+
+.issue-check input[type=checkbox] {
+	width: 16px;
+	height: 16px;
 }
 
 
+/*
+.issue-check {
+	width: 20px;	
+	margin: 20px auto;
+	position: relative;
+}
 
+.issue-check label {
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 0;
+	border-radius: 4px;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,.4);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,.4);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,.4);
+
+	background: -webkit-linear-gradient(top, #222 0%, #45484d 100%);
+	background: -moz-linear-gradient(top, #222 0%, #45484d 100%);
+	background: -o-linear-gradient(top, #222 0%, #45484d 100%);
+	background: -ms-linear-gradient(top, #222 0%, #45484d 100%);
+	background: linear-gradient(top, #222 0%, #45484d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d',GradientType=0 );
+}
+
+.issue-check label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 4px;
+	left: 4px;
+	border: 3px solid #fcfff4;
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.issue-check label:hover::after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+
+.issue-check input[type=checkbox]:checked + label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}*/
 
 
 .callbacks, .callbacks + p, #examples, .content, .disable-destroy, .show-hide, .dialog, .all-themes-switch, .scrollTo{ -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
