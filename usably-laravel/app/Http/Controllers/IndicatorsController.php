@@ -2,10 +2,16 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Http\Request;
 
 class IndicatorsController extends Controller {
+
+    public function __constructor()
+    {
+        $this->middleware('auth', ['only' => 'index']);
+    }
 
 	/**
 	 * Display a listing of the resource.
@@ -14,7 +20,8 @@ class IndicatorsController extends Controller {
 	 */
 	public function index()
 	{
-		return view('index');
+        $user = Auth::user();
+		return view('index')->with('user', $user);
 	}
 
 	/**

@@ -264,3 +264,7 @@ code{
 	margin-bottom: -10px;
 	border-top: 1px solid rgba(0,0,0,0.7);
 }
+
+.panel:hover {
+    top: 6px;
+}

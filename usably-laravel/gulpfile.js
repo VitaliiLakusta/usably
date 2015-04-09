@@ -13,4 +13,15 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.less('app.less');
+
+    mix.styles([
+        'css/bootstrap.css',
+        'css/sb-admin.css',
+        'css/plugins/morris.css',
+        'css/font-awesome.css',
+        'css/style.css'
+
+    ], 'public/css/output/all.css', 'public');
+
+    mix.version('css/output/all.css')
 });

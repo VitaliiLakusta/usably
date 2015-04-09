@@ -14,3 +14,10 @@
 Route::get('/', 'WelcomeController@index');
 Route::get('issues', 'IssuesController@index');
 Route::resource('indicators', 'IndicatorsController');
+
+Route::controllers([
+    'auth' => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController',
+]);
+
+
