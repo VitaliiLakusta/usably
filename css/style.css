@@ -3,6 +3,9 @@
 	box-sizing: border-box;
 }
 
+a:hover {
+	text-decoration: none;
+}
 
 .indicator-title {
     color: #337ab7;
@@ -28,20 +31,19 @@
 
 .issue {
 	border-bottom: 1px solid #ddd;
-	padding: 5px 15px;
+	padding: 10px 15px;
 }
 
-.issue div {
-	padding: 0;
+.issue:last-child {
+	border-bottom: 0;
 }
 
-.issue small {
-	font-size: 80%;
+.issue span {
+	font-size: 18px;
 }
 
 .panel-danger > .issue-heading {
 	background-color: #DB524A;
-
 	background-image: none;
 }
 
@@ -55,36 +57,74 @@
 	border-color: #DB524A;
 }
 
+.issue-actions{
+	display:inline;
+	float: right;
+	font-size: 18px;
+	position: relative;	
+}
+
+.issue-actions a {
+	color: #ABABAB;
+}
+
+.view-all-issues {
+	float:right;
+	font-size:18px;
+}
+
+
+.view-all-issues a {
+	color:#D51F26;
+}
+
+.view-all-issues a:hover {
+	color: #327BBA;
+}
+
 .fa {
 	padding-right: 5px;
 	padding-left: 5px;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	-webkit-transition: all .25s ease;
+	transition: all .25s ease;
 }
 
-.nav-tabs {
+.issue-actions .fa-th-list:hover {
+	color: #6cb043;
+}
+
+.issue-actions .fa-info-circle:hover {
+	color: #327BBA;
+}
+
+.issue-tabs-main {
 	border: 1px solid #E9E9E9;
 	border-radius: 4px;	
 	background-color: #F8F8F8;
 }
  
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:hover,
-.nav-tabs>li.active>a:focus {
+.issue-tabs-main>li.active>a,
+.issue-tabs-main>li.active>a:hover,
+.issue-tabs-main>li.active>a:focus {
 	color: #000;
 	border: none;
 	background-color: #E7E7E7;
 }
 
-.nav-tabs>li>a {
+.issue-tabs-main>li>a {
 border: none;
   border-radius: 0;
   margin-right: 0;
   display:block;
   padding: 15px 15px;
   color: #252525;
-	font-weight: bold;
+font-weight: bold;
 }
 
-.nav-tabs>li:first-child a {
+.issue-tabs-main>li:first-child a {
 	color: #A5A5A5;
 	pointer-events: none;
 }
@@ -115,6 +155,7 @@ border: none;
 	-moz-transition: all .4s ease;
 	-ms-transition: all .4s ease;
 	-o-transition: all .4s ease;
+	-webkit-transition: all .4s ease;
 	transition: all .4s ease;
 	font-size: 16px;
 	color: #2E77B5;
