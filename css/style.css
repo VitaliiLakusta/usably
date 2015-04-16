@@ -116,6 +116,12 @@ a:hover {
     color: #327BBA;
 }
 
+.view-usably-details {
+	float: right;
+	font-size: 17px;
+}
+
+
 .fa {
     padding-right: 5px;
     padding-left: 5px;
@@ -185,6 +191,22 @@ a:hover {
     border: transparent;
     border-bottom: 2px solid #1C6EB2;
     color: #000;
+}
+
+.usably_rate_star {
+	padding: 0;
+	float: none;
+	display: inline;
+	font-size: 60px;
+}
+
+
+.usably_rate_info {
+	padding: 0 0 10px;
+	display: inline;
+	text-align: right;
+	float: right;
+	font-size: 36px;
 }
 
 .callbacks, .callbacks + p, #examples, .content, .disable-destroy, .show-hide, .dialog, .all-themes-switch, .scrollTo {
@@ -275,4 +297,49 @@ code {
 
 #examples > hr {
     margin: 20px 10px;
+}
+
+
+
+
+/* must <= # of divs inside .star in the markup */
+/* <= 0.75 */
+.star {
+  position: absolute;
+  left: 50%;
+  margin-left: 0;
+  margin-top: -50px;
+  top: 50%;
+}
+
+.star div {
+  border-bottom: 40px solid gold;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: 50% 100%;
+}
+
+.star div:nth-child(1) {
+  transform: rotate(0deg);
+}
+
+.star div:nth-child(2) {
+  transform: rotate(72deg);
+}
+
+.star div:nth-child(3) {
+  transform: rotate(144deg);
+}
+
+.star div:nth-child(4) {
+  transform: rotate(216deg);
+}
+
+.star div:nth-child(5) {
+  transform: rotate(288deg);
 }
