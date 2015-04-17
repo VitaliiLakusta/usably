@@ -145,3 +145,365 @@ body {
   margin-right: 0;
   display:block;
 }
+
+/* CSS THAT WAS IN A NORMAL FOLDER (NOT LARAVEL) 17.04.2015, 9:35PM */
+
+a {
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.indicator-title {
+    color: #337ab7;
+}
+
+.indicator-overview-charts {
+    margin-top: 35px;
+}
+
+.indicator-rate {
+    /*padding-left: 50px;*/;
+}
+
+.indicator-desc {
+    padding: 15px 0;
+}
+
+.indicator-desc ol {
+    font-size: 18px;
+}
+
+.issue-list-desc {
+    padding: 10px 5px;
+}
+
+.issue {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 5px;
+}
+
+.panel > .issue:last-child {
+    border-bottom: 0;
+}
+
+.issue span {
+    font-size: 14px;
+    position: relative;
+//left: 20px;
+}
+
+.issue-actions span {
+    font-size: 15px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.panel > .issue h4 {
+    float: left;
+}
+
+.panel > .issue {
+    padding: 5px 15px;
+}
+
+.panel .issue-actions {
+    top: 8px;
+    font-size: 18px;
+}
+
+.panel-danger > .issue-heading {
+    background-color: #DB524A;
+    background-image: none;
+}
+
+.panel > .issue-heading {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.panel-danger {
+    border-color: #DB524A;
+}
+
+.issue-actions {
+    text-align: right;
+    font-size: 15px;
+    position: relative;
+    top: 34px;
+}
+
+.issue-actions div {
+    padding: 5px;
+}
+
+.issue-actions a {
+    color: #ABABAB;
+}
+
+.view-all-issues {
+    float: right;
+    font-size: 18px;
+}
+
+.view-all-issues a {
+    color: #D51F26;
+}
+
+.view-all-issues a:hover {
+    color: #327BBA;
+}
+
+.view-usably-details {
+    float: right;
+    font-size: 17px;
+}
+
+
+.fa {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.issue-actions .fa {
+    font-size: 18px;
+}
+
+.issue-actions .fa-th-list:hover, .add-issue-list:hover {
+    color: #6cb043;
+    text-decoration: none;
+}
+
+.issue-actions .fa-info-circle:hover, .view-issue-details:hover {
+    color: #327BBA;
+    text-decoration: none;
+}
+
+.issue-tabs-main .indicators-tabs-main {
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    background-color: #F8F8F8;
+}
+
+.issue-tabs-main .indicators-tabs-main>li.active>a,
+.issue-tabs-main .indicators-tabs-main>li.active>a:hover,
+.issue-tabs-main .indicators-tabs-main>li.active>a:focus {
+    color: #000;
+    border: none;
+    background-color: #E7E7E7;
+}
+
+.issue-tabs-main .indicators-tabs-main>li>a {
+    border: none;
+    border-radius: 0;
+    margin-right: 0;
+    display: block;
+    padding: 15px 15px;
+    color: #252525;
+    font-weight: bold;
+}
+
+.issue-tabs-main .indicators-tabs-main>li:first-child a {
+    color: #A5A5A5;
+    pointer-events: none;
+}
+
+.issue-tabs-second {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.issue-tabs-second>li>a {
+    border: none;
+    color: #000;
+    font-size: 21px;
+    font-weight: 400;
+    margin-right: 0;
+}
+
+.issue-tabs-second>li>a:hover,
+.issue-tabs-second>li.active>a,
+.issue-tabs-second>li.active>a:hover,
+.issue-tabs-second>li.active>a:focus {
+    background-color: transparent;
+    background: none;
+    border: transparent;
+    border-bottom: 2px solid #1C6EB2;
+    color: #000;
+}
+
+.usably_rate_star {
+    padding: 0;
+    float: none;
+    display: inline;
+    font-size: 60px;
+}
+
+
+.usably_rate_info {
+    padding: 0 0 10px;
+    display: inline;
+    text-align: right;
+    float: right;
+    font-size: 36px;
+}
+
+.callbacks, .callbacks + p, #examples, .content, .disable-destroy, .show-hide, .dialog, .all-themes-switch, .scrollTo {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+nav, .callbacks, .disable-destroy, .show-hide, .dialog, .all-themes-switch, .scrollTo {
+    background: #111;
+}
+
+nav ul li, .callbacks ul li, .disable-destroy ul li, .show-hide ul li, .dialog ul li, .all-themes-switch ul li, .scrollTo ul li {
+    float: left;
+    margin: 3px 6px 3px 0;
+}
+
+.callbacks ul li.off {
+    opacity: 0.4;
+}
+
+.callbacks ul li a, .disable-destroy ul li a, .show-hide ul li a, .dialog ul li a, .all-themes-switch ul li a, .scrollTo ul li a {
+    display: block;
+    padding: 3px 15px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.callbacks + p {
+    color: #bbb;
+    font-size: 12px;
+}
+
+.callbacks + p span {
+    display: inline-block;
+}
+
+.callbacks + p span span {
+    color: #eee;
+    min-width: 40px;
+}
+
+.callbacks a span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    background: #333;
+    margin-right: 3px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.callbacks a span.on {
+    background: #eb3755;
+}
+
+.callback-offset, .callback-offset-back {
+    width: 100%;
+    position: absolute;
+}
+
+.callback-offset-back {
+    top: 0;
+    height: 50px;
+    border-bottom: 1px dashed #ffed0d;
+}
+
+.callback-offset {
+    bottom: 0;
+    height: 60px;
+    border-top: 1px dashed #ffed0d;
+}
+
+code {
+    color: #caaee1;
+    font-family: monospace;
+}
+
+#examples {
+    background-color: #191919;
+    background-color: rgba(0,0,0,0.3);
+    padding: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#examples > hr {
+    margin: 20px 10px;
+}
+
+.scroll-content{
+    overflow: auto;
+    position: relative;
+    padding: 10px 0 0 0;
+    margin: 1px;
+    height: 231px;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.scroll-content.hidden{ display: none; }
+
+.scroll-content hr{
+    margin-bottom: -10px;
+    border-top: 1px solid rgba(0,0,0,0.7);
+}
+
+.panel:hover {
+    top: 6px;
+}
+
+
+/* must <= # of divs inside .star in the markup */
+/* <= 0.75 */
+.star {
+    position: absolute;
+    left: 50%;
+    margin-left: 0;
+    margin-top: -50px;
+    top: 50%;
+}
+
+.star div {
+    border-bottom: 40px solid gold;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 50% 100%;
+}
+
+.star div:nth-child(1) {
+    transform: rotate(0deg);
+}
+
+.star div:nth-child(2) {
+    transform: rotate(72deg);
+}
+
+.star div:nth-child(3) {
+    transform: rotate(144deg);
+}
+
+.star div:nth-child(4) {
+    transform: rotate(216deg);
+}
+
+.star div:nth-child(5) {
+    transform: rotate(288deg);
+}

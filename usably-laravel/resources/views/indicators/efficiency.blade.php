@@ -17,7 +17,14 @@
 
     <div class="row">
         <div class="col-md-12">
-            
+            <ul class="nav nav-tabs">
+                <li role="presentation"><a href="#">Usably Indicators</a></li>
+                <li role="presentation" class="active"><a href="#efficiency" data-toggle="tab">Efficiency</a></li>
+                <li role="presentation"><a href="#avoiding_mistakes" data-toggle="tab">Avoiding Mistakes</a></li>
+                <li role="presentation"><a href="#" data-toggle="tab">Satisfaction</a> </li>
+                <li role="presentation"><a href="#" data-toggle="tab">Information Overload</a></li>
+                <li role="presentation"><a href="#" data-toggle="tab">Goal Orientation</a></li>
+            </ul>
         </div>
     </div>
 

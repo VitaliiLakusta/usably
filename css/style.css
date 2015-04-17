@@ -141,21 +141,21 @@ a:hover {
     text-decoration: none;
 }
 
-.issue-tabs-main {
+.issue-tabs-main .indicators-tabs-main {
     border: 1px solid #E9E9E9;
     border-radius: 4px;
     background-color: #F8F8F8;
 }
 
-.issue-tabs-main>li.active>a,
-.issue-tabs-main>li.active>a:hover,
-.issue-tabs-main>li.active>a:focus {
+.issue-tabs-main .indicators-tabs-main>li.active>a,
+.issue-tabs-main .indicators-tabs-main>li.active>a:hover,
+.issue-tabs-main .indicators-tabs-main>li.active>a:focus {
     color: #000;
     border: none;
     background-color: #E7E7E7;
 }
 
-.issue-tabs-main>li>a {
+.issue-tabs-main .indicators-tabs-main>li>a {
     border: none;
     border-radius: 0;
     margin-right: 0;
@@ -165,7 +165,7 @@ a:hover {
     font-weight: bold;
 }
 
-.issue-tabs-main>li:first-child a {
+.issue-tabs-main .indicators-tabs-main>li:first-child a {
     color: #A5A5A5;
     pointer-events: none;
 }
