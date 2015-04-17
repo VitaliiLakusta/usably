@@ -1,11 +1,26 @@
 @extends('app');
 
 @section('content')
-
-    <div class="row indicator-header text-center">
-        <h1 class="indicator-title">Efficiency</h1>
-        <p class="indicator-desc lead">Efficiency means how your website performs. See how efficiency got evaluated below.</p>
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Dashboard <small>Usability Indicators</small></h1>
+            <hr>
+            <ol class="breadcrumb">
+                <li><i class="fa fa-dashboard"></i><a href="#">Dashboard</a></li>
+                <li class="active">
+                    <i class="fa fa-calendar"></i>
+                    Usability Indicators
+                </li>
+            </ol>
+        </div>
     </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            
+        </div>
+    </div>
+
 
     <div class="row indicator-overview-charts">
         <div class="col-md-6 indicator-rate">
