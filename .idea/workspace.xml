@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ddf273-e275-474a-9ea6-78a0069fc4d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usably-laravel/public/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php" afterPath="$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/public/css/style.css" afterPath="$PROJECT_DIR$/usably-laravel/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="usably.iws" />
@@ -53,8 +51,8 @@
       <file leaf-file-name="efficiency.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6494845" vertical-offset="766" max-vertical-offset="1445">
-              <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.77466863" vertical-offset="613" max-vertical-offset="1564">
+              <caret line="67" column="85" selection-start-line="67" selection-start-column="85" selection-end-line="67" selection-end-column="85" />
               <folding>
                 <element signature="e#1382#1410#0#HTML" expanded="true" />
                 <element signature="e#1710#1745#0#HTML" expanded="true" />
@@ -934,14 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6273">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usably_rate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="748">
@@ -1014,6 +1004,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6273">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/usably-laravel/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.172414" vertical-offset="8215" max-vertical-offset="8959">
@@ -1024,8 +1022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6494845" vertical-offset="766" max-vertical-offset="1445">
-          <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.77466863" vertical-offset="613" max-vertical-offset="1564">
+          <caret line="67" column="85" selection-start-line="67" selection-start-column="85" selection-end-line="67" selection-end-column="85" />
           <folding>
             <element signature="e#1382#1410#0#HTML" expanded="true" />
             <element signature="e#1710#1745#0#HTML" expanded="true" />

@@ -53,7 +53,7 @@
                     <h3>Efficiency rate over time</h3>
                 </div>
                 <div class="panel-body">
-                    <canvas id="lineChart1"></canvas>
+                    <canvas id="lineChart1" height="50"></canvas>
                 </div>
             </div>
         </div>
@@ -64,12 +64,19 @@
                     <h4>Efficiency Description</h4>
                     Efficiency means lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum
                     lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                    lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                    lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                    <div class="view-usably-details">
+                        <a href="#">View details<i class="fa fa-info-circle"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
+
+    <div class="row">
+
+    </div>
+
 
 @stop
 
