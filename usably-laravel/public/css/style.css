@@ -507,3 +507,12 @@ code {
 .star div:nth-child(5) {
     transform: rotate(288deg);
 }
+
+
+/* VITALII's CSS */
+
+.indicator-description-box {
+    padding-left: 6px;
+    padding-right: 6px;
+
+}

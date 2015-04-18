@@ -16,11 +16,16 @@
     {{--<link href="{{ elixir('css/output/all.css') }}" rel="stylesheet" type="text/css">--}}
 
 
-    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link href="/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="/css/sb-admin.css" rel="stylesheet" type="text/css">
     <link href="/css/plugins/morris.css" rel="stylesheet" type="text/css">
-    <link href="/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/rating_star.js"></script>
 
 </head>
 
@@ -197,8 +202,8 @@
 </div>
 
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+{{--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>--}}
+{{--<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>--}}
 
 
 <!-- Morris Charts JavaScript -->
@@ -206,7 +211,7 @@
 <script src="{{asset('/js/plugins/morris/morris.min.js')}}"></script>
 <script src="{{asset('/js/plugins/morris/morris-data.js')}}"></script>
 
-
+@yield('footer')
 
 
 </body>
