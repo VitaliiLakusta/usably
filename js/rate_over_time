@@ -2,7 +2,7 @@ $(function () {
 	
 	var options = {
 		title: {
-			text: "Usability rate over time"
+			text: ""
 		},
                 animationEnabled: true,
 		data: [
