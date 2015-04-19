@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="panel-body">
-                    <div class="view-usably-details"><a href="#">View details<i class="fa fa-info-circle"></a></i></div>
+                    <div class="view-usably-details"><a href="#">View details<i class="fa fa-info-circle"></i></a></div>
                 </div>
             </div>
         </div>
@@ -73,7 +73,32 @@
 
     </div>
 
-    <div class="row">
+    <div class="row indicator-metric">
+        <div class="row">
+            <h3 class="text-left col-md-3">Form Validation Errors</h3>
+            <h4 class="text-right col-md-5 related-issues-fixes-text">Related Issues and Fixes</h4>
+        </div>
+        <hr class="hr-small-margin">
+        <div class="row indicator-metric-content">
+            <div class="col-md-3">
+                <h3>Here is the chart</h3>
+            </div>
+            <div class="col-md-6">
+                <p class="metric-description">
+                    <strong>35 % of your users</strong> make form validation errors
+                    <br><br>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <h3>Here is the list of issues</h3>
+                </div>
+            </div>
+        </div>
 
     </div>
 

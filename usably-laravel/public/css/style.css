@@ -520,3 +520,13 @@ code {
 .indicator-panel {
     margin-top: 20px;
 }
+
+.related-issues-fixes-text {
+    padding-top: 20px;
+    margin-right: 20px;
+    color: #337ab7;
+}
+
+.hr-small-margin {
+    margin: 5px;
+}
