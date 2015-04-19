@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+<script src='Chart.js'></script>
+
+
+</head>
+<body>
+<div id="Header" style="height: 100%; width: 375px; background-color:#4682B4; text-align: center; color:#FFFFFF; border-radius: 11px 11px 0px 0px"
+>
+<h1> Usability indicators</h1> </div>
+
+<div id="chartContainer" style="height: 300px; width: 369px; border-color:#4682B4; border-style: solid; border-radius: 0px 0px 11px 11px;">
+<canvas id="myChart" width="369" height="300"></canvas>
+</div>
+
+<script type="text/javascript">
+
+var ctx = document.getElementById("myChart").getContext("2d");
+var data = [
+{
+value: 60,
+color:"#F7464A",
+highlight: "#FF5A5E",
+label: "Goal orientation rate"
+},
+{
+value: 75,
+color: "#46BFBD",
+highlight: "#5AD3D1",
+label: "Learnability"
+},
+{
+value: 79,
+color: "#FDB45C",
+highlight: "#FFC870",
+label: "Efficiency"
+},
+{
+value: 49,
+color: "#949FB1",
+highlight: "#A8B3C5",
+label: "Avoiding mistakes"
+},
+{
+value: 86,
+color: "#4D5360",
+highlight: "#616774",
+label: "Satisfaction"
+},
+{
+value: 76,
+color: "#4D5360",
+highlight: "#616774",
+label: "Information overload"
+}
+
+];
+var myNewChart = new Chart(ctx).PolarArea(data);
+
+</script>
+</body>
+
+</html>
