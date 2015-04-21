@@ -21,132 +21,12 @@ body {
 }
 
 
-/*|--------------------------------------------------------------------------*/
-/*| Bayram's CSS for Issues page*/
-/*|--------------------------------------------------------------------------*/
-/*|*/
 
-.nav-tabs li:first-child {
-	border-left-color: transparent;
-}
+/* CSS THAT WAS IN A NORMAL FOLDER (NOT LARAVEL) 21.04.2015, 13:28PM - Edited by Bayram*/
 
-.issue-list-right {
-	padding-left: 0;
+* {
+    box-sizing: border-box;
 }
-
-.issue-list-left {
-	padding: 0;
-	border: 1px solid #ddd;
-	width: 23%;
-}
-
-.issue-list-left h3 {
-	padding-left: 15px;
-}
-
-.issue-list-indicators {
-	padding-left: 0;
-	margin-bottom: 0;
-}
-
-.issue-list-indicators li {
-    list-style-type: none;
-    line-height: 50px;
-    border-top: 1px solid #ddd;
-    padding: 0 10px;
-	-moz-transition: all .4s ease;
-	-ms-transition: all .4s ease;
-	-o-transition: all .4s ease;
-	transition: all .4s ease;
-}
-
-.issue-list-indicators a li:hover, .issue-list-indicators a:hover, .issue-list-indicators .active {
-	background-color: #A2D8F4;
-	color: #000;
-	text-decoration: none;
-}
-
-.issue-list-indicators a:active {
-    text-decoration: none;
-}
-
-.issue-list-desc{
-	padding: 10px 5px;
-}
-
-.issue {
-	float: left;
-	border-bottom: 1px solid #ddd;
-}
-
-.learn-more
- {
- 	float: right;
-	position: relative;
-	text-decoration: none;
-	padding: 5px;
-	margin-top: 12px;
-	display: block;
-	color: #000;
-	font-size: 11px;
-	-webkit-box-shadow: 0px 0px 1px #364361;
-	-moz-box-shadow: 0px 0px 1px #364361;
-	box-shadow: 0px 0px 1px #364361;
-	-moz-transition: all .4s ease;
-	-ms-transition: all .4s ease;
-	-o-transition: all .4s ease;
-	transition: all .4s ease;
-}
-
-.learn-more:active {
-    -webkit-box-shadow: 0px 0px 2px #364361;
-    -moz-box-shadow: 0px 0px 2px #364361;
-    box-shadow: 0px 0px 2px #364361;
-    position: relative;
-    top: 2px;
-    color: #3B3176;
-}
-
-.learn-more:hover {
-    color: #000;
-    background-color: #81C1E2;
-    text-decoration: none;
-}
-
-.fa {
-	padding-right: 5px;
-}
-
-
-.tabs-left, .tabs-right {
-  border-bottom: none;
-  padding-top: 2px;
-}
-.tabs-left {
-  border-right: 1px solid #ddd;
-}
-.tabs-left>li, .tabs-right>li {
-  float: none;
-  margin-bottom: 2px;
-}
-.tabs-left>li {
-  margin-right: -1px;
-}
-
-.tabs-left>li.active>a,
-.tabs-left>li.active>a:hover,
-.tabs-left>li.active>a:focus {
-  border-bottom-color: #ddd;
-  border-right-color: transparent;
-}
-
-.tabs-left>li>a {
-  border-radius: 4px 0 0 4px;
-  margin-right: 0;
-  display:block;
-}
-
-/* CSS THAT WAS IN A NORMAL FOLDER (NOT LARAVEL) 17.04.2015, 9:35PM */
 
 a {
     -moz-transition: all .25s ease;
@@ -172,6 +52,10 @@ a:hover {
     /*padding-left: 50px;*/;
 }
 
+
+/*|--------------------------------------------------------------------------*/
+/*| Bayram's CSS */
+/*|--------------------------------------------------------------------------*/
 .indicator-desc {
     padding: 15px 0;
 }
@@ -196,7 +80,7 @@ a:hover {
 .issue span {
     font-size: 14px;
     position: relative;
-//left: 20px;
+    //left: 20px;
 }
 
 .issue-actions span {
@@ -267,7 +151,6 @@ a:hover {
     font-size: 17px;
 }
 
-
 .fa {
     padding-right: 5px;
     padding-left: 5px;
@@ -277,6 +160,7 @@ a:hover {
     font-size: 18px;
 }
 
+/* .fa-th-list class and .fa-info-class is a child class of issue-actions. */
 .issue-actions .fa-th-list:hover, .add-issue-list:hover {
     color: #6cb043;
     text-decoration: none;
@@ -287,21 +171,21 @@ a:hover {
     text-decoration: none;
 }
 
-.issue-tabs-main .indicators-tabs-main {
+.issue-tabs-main, .indicators-tabs-main {
     border: 1px solid #E9E9E9;
     border-radius: 4px;
     background-color: #F8F8F8;
 }
 
-.issue-tabs-main .indicators-tabs-main>li.active>a,
-.issue-tabs-main .indicators-tabs-main>li.active>a:hover,
-.issue-tabs-main .indicators-tabs-main>li.active>a:focus {
+.issue-tabs-main>li.active>a, .indicators-tabs-main>li.active>a,
+.issue-tabs-main>li.active>a:hover, .indicators-tabs-main>li.active>a:hover,
+.issue-tabs-main>li.active>a:focus, .indicators-tabs-main>li.active>a:focus {
     color: #000;
     border: none;
     background-color: #E7E7E7;
 }
 
-.issue-tabs-main .indicators-tabs-main>li>a {
+.issue-tabs-main>li>a, .indicators-tabs-main>li>a {
     border: none;
     border-radius: 0;
     margin-right: 0;
@@ -311,7 +195,7 @@ a:hover {
     font-weight: bold;
 }
 
-.issue-tabs-main .indicators-tabs-main>li:first-child a {
+.issue-tabs-main>li:first-child a, .indicators-tabs-main>li:first-child a {
     color: #A5A5A5;
     pointer-events: none;
 }
@@ -328,7 +212,7 @@ a:hover {
     margin-right: 0;
 }
 
-.issue-tabs-second>li>a:hover,
+.issue-tabs-second>li>a:hover, 
 .issue-tabs-second>li.active>a,
 .issue-tabs-second>li.active>a:hover,
 .issue-tabs-second>li.active>a:focus {
@@ -354,6 +238,11 @@ a:hover {
     float: right;
     font-size: 36px;
 }
+
+/*|--------------------------------------------------------------------------*/
+/*| Bayram's CSS End*/
+/*|--------------------------------------------------------------------------*/
+
 
 .callbacks, .callbacks + p, #examples, .content, .disable-destroy, .show-hide, .dialog, .all-themes-switch, .scrollTo {
     -webkit-border-radius: 5px;
@@ -445,68 +334,11 @@ code {
     margin: 20px 10px;
 }
 
-.scroll-content{
-    overflow: auto;
-    position: relative;
-    padding: 10px 0 0 0;
-    margin: 1px;
-    height: 231px;
-    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
-}
-
-.scroll-content.hidden{ display: none; }
-
-.scroll-content hr{
-    margin-bottom: -10px;
-    border-top: 1px solid rgba(0,0,0,0.7);
-}
 
 .panel:hover {
     top: 6px;
 }
 
-
-/* must <= # of divs inside .star in the markup */
-/* <= 0.75 */
-.star {
-    position: absolute;
-    left: 50%;
-    margin-left: 0;
-    margin-top: -50px;
-    top: 50%;
-}
-
-.star div {
-    border-bottom: 40px solid gold;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform-origin: 50% 100%;
-}
-
-.star div:nth-child(1) {
-    transform: rotate(0deg);
-}
-
-.star div:nth-child(2) {
-    transform: rotate(72deg);
-}
-
-.star div:nth-child(3) {
-    transform: rotate(144deg);
-}
-
-.star div:nth-child(4) {
-    transform: rotate(216deg);
-}
-
-.star div:nth-child(5) {
-    transform: rotate(288deg);
-}
 
 
 /* VITALII's CSS */

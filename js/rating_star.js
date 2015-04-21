@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
         ctx.lineTo(0.0, 78.3);
         ctx.lineTo(74.5, 67.5);
         ctx.lineTo(107.8, 0.0);
-        //ctx.rect(0,0,210,210);
+       // ctx.rect(0,0,210,210);
         ctx.lineWidth = 8;
         ctx.lineJoin = "round";
         ctx.strokeStyle = "#fff";

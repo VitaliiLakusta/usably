@@ -121,7 +121,6 @@ a:hover {
 	font-size: 17px;
 }
 
-
 .fa {
     padding-right: 5px;
     padding-left: 5px;
@@ -131,6 +130,7 @@ a:hover {
     font-size: 18px;
 }
 
+/* .fa-th-list class and .fa-info-class is a child class of issue-actions. */
 .issue-actions .fa-th-list:hover, .add-issue-list:hover {
     color: #6cb043;
     text-decoration: none;
@@ -141,21 +141,21 @@ a:hover {
     text-decoration: none;
 }
 
-.issue-tabs-main .indicators-tabs-main {
+.issue-tabs-main, .indicators-tabs-main {
     border: 1px solid #E9E9E9;
     border-radius: 4px;
     background-color: #F8F8F8;
 }
 
-.issue-tabs-main .indicators-tabs-main>li.active>a,
-.issue-tabs-main .indicators-tabs-main>li.active>a:hover,
-.issue-tabs-main .indicators-tabs-main>li.active>a:focus {
+.issue-tabs-main>li.active>a, .indicators-tabs-main>li.active>a,
+.issue-tabs-main>li.active>a:hover, .indicators-tabs-main>li.active>a:hover,
+.issue-tabs-main>li.active>a:focus, .indicators-tabs-main>li.active>a:focus {
     color: #000;
     border: none;
     background-color: #E7E7E7;
 }
 
-.issue-tabs-main .indicators-tabs-main>li>a {
+.issue-tabs-main>li>a, .indicators-tabs-main>li>a {
     border: none;
     border-radius: 0;
     margin-right: 0;
@@ -165,7 +165,7 @@ a:hover {
     font-weight: bold;
 }
 
-.issue-tabs-main .indicators-tabs-main>li:first-child a {
+.issue-tabs-main>li:first-child a, .indicators-tabs-main>li:first-child a {
     color: #A5A5A5;
     pointer-events: none;
 }
@@ -299,65 +299,7 @@ code {
     margin: 20px 10px;
 }
 
-.scroll-content{
-	overflow: auto;
-	position: relative;
-	padding: 10px 0 0 0;
-	margin: 1px;
-	height: 231px;
-	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
-}
-
-.scroll-content.hidden{ display: none; }
-
-.scroll-content hr{
-	margin-bottom: -10px;
-	border-top: 1px solid rgba(0,0,0,0.7);
-}
 
 .panel:hover {
     top: 6px;
-}
-
-
-/* must <= # of divs inside .star in the markup */
-/* <= 0.75 */
-.star {
-  position: absolute;
-  left: 50%;
-  margin-left: 0;
-  margin-top: -50px;
-  top: 50%;
-}
-
-.star div {
-  border-bottom: 40px solid gold;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform-origin: 50% 100%;
-}
-
-.star div:nth-child(1) {
-  transform: rotate(0deg);
-}
-
-.star div:nth-child(2) {
-  transform: rotate(72deg);
-}
-
-.star div:nth-child(3) {
-  transform: rotate(144deg);
-}
-
-.star div:nth-child(4) {
-  transform: rotate(216deg);
-}
-
-.star div:nth-child(5) {
-  transform: rotate(288deg);
 }
