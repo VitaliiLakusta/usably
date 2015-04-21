@@ -343,26 +343,61 @@ code {
 
 /* VITALII's CSS */
 
+.indicators-nav-row {
+    margin-bottom: 20px;
+}
+
+#lineChart1 {
+    padding-right: 15px;
+}
+
 .indicator-description-box {
     padding-left: 6px;
     padding-right: 6px;
-
 }
 
 .indicator-panel {
-    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.indicator-metric-row {
+    margin-bottom: 30px;
+}
+
+.metric-title {
+    padding-left: 100px;
 }
 
 .related-issues-fixes-text {
-    padding-top: 20px;
-    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-top: 25px;
+    padding-left: 103px;
     color: #337ab7;
 }
 
 .hr-small-margin {
-    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+.indicator-metric-content {
+    padding-left: 50px;
 }
 
 .metric-description {
     padding-right: 200px;
+}
+
+.col-metric-chart {
+    padding-left: 50px;
+    margin-right: -200px;
+}
+
+.col-metric-description {
+
+}
+
+.col-metric-issues {
+    margin-left: -150px;
 }

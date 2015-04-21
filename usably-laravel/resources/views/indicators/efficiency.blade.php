@@ -15,7 +15,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row indicators-nav-row">
         <div class="col-md-12">
             <ul class="nav nav-tabs">
                 <li role="presentation"><a href="#">Usably Indicators</a></li>
@@ -47,7 +47,7 @@
             </div>
         </div>
 
-        <div class="col-md-5">
+        <div class="col-md-6">
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <h3>Efficiency rate over time</h3>
@@ -73,17 +73,26 @@
 
     </div>
 
-    <div class="row indicator-metric">
+    <div class="row indicator-metric-row">
         <div class="row">
-            <h3 class="text-left col-md-3">Form Validation Errors</h3>
-            <h4 class="text-right col-md-3 col-md-offset-6 related-issues-fixes-text">Related Issues and Fixes</h4>
+            <h3 class="col-md-6 metric-title">Form Validation Errors</h3>
+            <h4 class="col-md-6 related-issues-fixes-text">Related Issues and Fixes</h4>
         </div>
         <hr class="hr-small-margin">
         <div class="row indicator-metric-content">
-            <div class="col-md-3">
-                <h3>Here is the chart</h3>
+            <div class="col-md-3 col-metric-chart">
+                <div class="progress-pie-chart" data-percent="55">
+                    <div class="ppc-progress">
+                        <div class="ppc-progress-fill"></div>
+                    </div>
+                    <div class="ppc-percents">
+                        <div class="pcc-percents-wrapper">
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-metric-description">
                 <p class="metric-description">
                     <strong>35 % of your users</strong> make form validation errors
                     <br><br>
@@ -93,7 +102,64 @@
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                 </p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-metric-issues">
+                <div class="panel panel-default">
+                    <div class="panel-body issue 1">
+                        <h4>Form validation errors</h4>
+                        <div class="issue-actions">
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                        </div>
+                    </div>
+                    <div class="panel-body issue 2">
+                        <h4>Unfinished checkout rate</h4>
+                        <div class="issue-actions">
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                        </div>
+                    </div>
+                    <div class="panel-body issue 3">
+                        <h4>Search efficiency</h4>
+                        <div class="issue-actions">
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row indicator-metric-row">
+        <div class="row">
+            <h3 class="col-md-6 metric-title">Shopping Cart Abandonment</h3>
+            <h4 class="col-md-6 related-issues-fixes-text">Related Issues and Fixes</h4>
+        </div>
+        <hr class="hr-small-margin">
+        <div class="row indicator-metric-content">
+            <div class="col-md-3 col-metric-chart">
+                <div class="progress-pie-chart" data-percent="55">
+                    <div class="ppc-progress">
+                        <div class="ppc-progress-fill"></div>
+                    </div>
+                    <div class="ppc-percents">
+                        <div class="pcc-percents-wrapper">
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-metric-description">
+                <p class="metric-description">
+                    <strong>35 % of your users</strong> make form validation errors
+                    <br><br>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                </p>
+            </div>
+            <div class="col-md-3 col-metric-issues">
                 <div class="panel panel-default">
                     <div class="panel-body issue 1">
                         <h4>Form validation errors</h4>

@@ -1,0 +1,73 @@
+.progress-pie-chart {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+    position: relative;
+}
+.progress-pie-chart.gt-50 {
+    background-color: #337ab7;
+}
+
+.ppc-progress {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 65px);
+    top: calc(50% - 65px);
+    width: 130px;
+    height: 130px;
+    clip: rect(0, 130px, 130px, 65px);
+}
+.ppc-progress .ppc-progress-fill {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 65px);
+    top: calc(50% - 65px);
+    width: 130px;
+    height: 130px;
+    clip: rect(0, 65px, 130px, 0);
+    background: #337ab7;
+    transform: rotate(60deg);
+}
+.gt-50 .ppc-progress {
+    clip: rect(0, 65px, 130px, 0);
+}
+.gt-50 .ppc-progress .ppc-progress-fill {
+    clip: rect(0, 130px, 130px, 65px);
+    background: #E5E5E5;
+}
+
+.ppc-percents {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 113.04347826px/2);
+    top: calc(50% - 113.04347826px/2);
+    width: 113.04347826px;
+    height: 113.04347826px;
+    background: #fff;
+    text-align: center;
+    display: table;
+}
+.ppc-percents span {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: #337ab7;
+}
+
+.pcc-percents-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body {
+    /*font-family: Arial;*/
+    /*background: #f7f7f7;*/
+}
+
+.progress-pie-chart {
+    /*margin: 50px auto 0;*/
+}
