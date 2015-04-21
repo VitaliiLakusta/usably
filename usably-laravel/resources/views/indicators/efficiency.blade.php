@@ -76,7 +76,7 @@
     <div class="row indicator-metric">
         <div class="row">
             <h3 class="text-left col-md-3">Form Validation Errors</h3>
-            <h4 class="text-right col-md-5 related-issues-fixes-text">Related Issues and Fixes</h4>
+            <h4 class="text-right col-md-3 col-md-offset-6 related-issues-fixes-text">Related Issues and Fixes</h4>
         </div>
         <hr class="hr-small-margin">
         <div class="row indicator-metric-content">
@@ -95,7 +95,27 @@
             </div>
             <div class="col-md-3">
                 <div class="panel panel-default">
-                    <h3>Here is the list of issues</h3>
+                    <div class="panel-body issue 1">
+                        <h4>Form validation errors</h4>
+                        <div class="issue-actions">
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                        </div>
+                    </div>
+                    <div class="panel-body issue 2">
+                        <h4>Unfinished checkout rate</h4>
+                        <div class="issue-actions">
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                        </div>
+                    </div>
+                    <div class="panel-body issue 3">
+                        <h4>Search efficiency</h4>
+                        <div class="issue-actions">
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

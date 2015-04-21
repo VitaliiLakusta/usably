@@ -362,3 +362,7 @@ code {
 .hr-small-margin {
     margin: 5px;
 }
+
+.metric-description {
+    padding-right: 200px;
+}
