@@ -1,4 +1,4 @@
-@extends('app');
+@extends('app')
 
 @section('content')
     <div class="row">
@@ -69,7 +69,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <div class="row indicator-metric-row">
@@ -90,6 +89,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="issue-actions" style="top:0">
+                    <a style="cursor:pointer" class="formval-calc-details" data-toggle="tooltip" data-placement="top" data-original-title="Click to see calculation method"><i style="font-size: 21px;" class="fa fa-info-circle"></i></a>
+                </div>
             </div>
             <div class="col-md-6 col-metric-description">
                 <p class="metric-description">
@@ -130,7 +132,12 @@
             </div>
         </div>
     </div>
-
+   <div class="row">
+        <div class="alert alert-info ali1" style="display:none;">
+            <a class="close close-info">&times;</a>
+            Here is info
+        </div>
+    </div>
 <div class="row indicator-metric-row">
         <div class="row">
             <h3 class="col-md-8 metric-title">Shopping Cart Abandonment</h3>
@@ -149,6 +156,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="issue-actions" style="top:0">
+                    <a style="cursor:pointer" class="shopcard-calc-details" data-toggle="tooltip" data-placement="top" data-original-title="Click to see calculation method"><i style="font-size: 21px;" class="fa fa-info-circle"></i></a>
+                </div>
             </div>
             <div class="col-md-6 col-metric-description">
                 <p class="metric-description">
@@ -188,7 +198,13 @@
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+        <div class="row">
+            <div class="alert alert-info ali2" style="display:none;">
+                <a class="close close-info">&times;</a>
+                Here is info
+            </div>
+        </div>
 
 @stop
 
