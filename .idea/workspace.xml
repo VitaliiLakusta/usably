@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ddf273-e275-474a-9ea6-78a0069fc4d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usably-laravel/public/css/progress-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usably-laravel/public/js/progress-circle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/usably-laravel/resources/views/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php" afterPath="$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/public/css/style.css" afterPath="$PROJECT_DIR$/usably-laravel/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="usably.iws" />
@@ -32,110 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="337" max-vertical-offset="5287">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <marker date="1429634973065" expanded="true" signature="1637:1683" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="1723:1728" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="2069:2159" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="2360:2448" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="2494:2651" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="2709:2776" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="2988:3033" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="3134:3192" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="3264:3337" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="3397:3415" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="3487:3571" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="3653:3747" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="3787:3946" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="3953:3992" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="4133:4214" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="4262:4271" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="4308:4391" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="4484:4524" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="4592:4635" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="4693:4775" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="4820:4962" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="5011:5019" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="5054:5102" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="5162:5164" placeholder="{...}" />
-                <marker date="1429634973065" expanded="true" signature="5204:5207" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usably-laravel/public/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="833">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usably-laravel/public/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5670" max-vertical-offset="6936">
-              <caret line="361" column="0" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="efficiency.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.653846" vertical-offset="273" max-vertical-offset="952">
-              <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
-              <folding>
-                <element signature="e#1289#2151#0#HTML" expanded="false" />
-                <element signature="e#1401#1429#0#HTML" expanded="true" />
-                <element signature="e#1729#1764#0#HTML" expanded="true" />
-                <element signature="e#1807#1859#0#HTML" expanded="true" />
-                <element signature="e#2161#2515#0#HTML" expanded="false" />
-                <element signature="e#2525#3157#0#HTML" expanded="false" />
-                <element signature="e#2560#3142#0#HTML" expanded="false" />
-                <element signature="e#3175#6367#0#HTML" expanded="false" />
-                <element signature="e#6372#9567#0#HTML" expanded="false" />
-                <element signature="e#6718#7209#0#HTML" expanded="false" />
-                <element signature="e#7222#7835#0#HTML" expanded="false" />
-                <element signature="e#7905#9521#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="77.15385" vertical-offset="2499" max-vertical-offset="3842">
-              <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+            <state vertical-scroll-proportion="-2.7307692" vertical-offset="813" max-vertical-offset="1479">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="progress-circle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usably-laravel/public/css/progress-circle.css">
+      <file leaf-file-name="navigation.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-39.275864" vertical-offset="0" max-vertical-offset="1343">
-              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="progress-circle.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/usably-laravel/public/js/progress-circle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21702127" vertical-offset="0" max-vertical-offset="705">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.06593407" vertical-offset="1981" max-vertical-offset="2618">
+              <caret line="119" column="24" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -169,10 +77,11 @@
         <option value="$PROJECT_DIR$/usably-laravel/public/js/main.js" />
         <option value="$PROJECT_DIR$/dashboard-page-layout.html" />
         <option value="$PROJECT_DIR$/usably-laravel/public/js/progress-circle.js" />
-        <option value="$PROJECT_DIR$/usably-laravel/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/usably-laravel/public/css/progress-circle.css" />
         <option value="$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php" />
         <option value="$PROJECT_DIR$/usably-laravel/public/css/style.css" />
+        <option value="$PROJECT_DIR$/usably-laravel/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php" />
       </list>
     </option>
   </component>
@@ -290,7 +199,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="indicators" />
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,22 +220,12 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="usably-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="issues" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,79 +243,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -548,6 +375,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="252d81df-52c7-44a0-90d8-ce1a435c530a" server_name="xampp-server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -555,9 +385,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="252d81df-52c7-44a0-90d8-ce1a435c530a" server_name="xampp-server">
       <method />
     </configuration>
     <list size="0" />
@@ -628,14 +455,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -655,9 +482,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20572917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -688,13 +515,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/usably-laravel/public/js/plugins/flot/flot-data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21250">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usably-laravel/public/font-awesome/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28526">
@@ -741,20 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="692">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/app/Http/Controllers/IssuesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1479">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/issues/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-130.11539" vertical-offset="0" max-vertical-offset="3791">
-          <caret line="199" column="35" selection-start-line="199" selection-start-column="35" selection-end-line="199" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -912,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="493">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/issues.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8545454" vertical-offset="332" max-vertical-offset="10387">
@@ -998,34 +797,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="337" max-vertical-offset="6273">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="5202">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1429634973065" expanded="true" signature="1637:1683" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="1723:1728" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="2069:2159" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="2360:2448" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="2494:2651" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="2709:2776" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="2988:3033" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="3134:3192" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="3264:3337" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="3397:3415" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="3487:3571" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="3653:3747" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="3787:3946" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="3953:3992" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="4133:4214" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="4262:4271" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="4308:4391" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="4484:4524" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="4592:4635" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="4693:4775" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="4820:4962" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="5011:5019" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="5054:5102" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="5162:5164" placeholder="{...}" />
-            <marker date="1429634973065" expanded="true" signature="5204:5207" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429716385053" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1038,48 +832,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/public/css/progress-circle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.275864" vertical-offset="0" max-vertical-offset="1343">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="77.15385" vertical-offset="2499" max-vertical-offset="3842">
-          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usably-laravel/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5670" max-vertical-offset="6936">
           <caret line="361" column="0" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429729448307" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.653846" vertical-offset="273" max-vertical-offset="952">
-          <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
-          <folding>
-            <element signature="e#1289#2151#0#HTML" expanded="false" />
-            <element signature="e#1401#1429#0#HTML" expanded="true" />
-            <element signature="e#1729#1764#0#HTML" expanded="true" />
-            <element signature="e#1807#1859#0#HTML" expanded="true" />
-            <element signature="e#2161#2515#0#HTML" expanded="false" />
-            <element signature="e#2525#3157#0#HTML" expanded="false" />
-            <element signature="e#2560#3142#0#HTML" expanded="false" />
-            <element signature="e#3175#6367#0#HTML" expanded="false" />
-            <element signature="e#6372#9567#0#HTML" expanded="false" />
-            <element signature="e#6718#7209#0#HTML" expanded="false" />
-            <element signature="e#7222#7835#0#HTML" expanded="false" />
-            <element signature="e#7905#9521#0#HTML" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-9.269231" vertical-offset="2173" max-vertical-offset="3740">
+          <caret line="142" column="44" selection-start-line="142" selection-start-column="42" selection-end-line="142" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/issues/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.923077" vertical-offset="3125" max-vertical-offset="3791">
+          <caret line="199" column="35" selection-start-line="199" selection-start-column="35" selection-end-line="199" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usably-laravel/app/Http/Controllers/IssuesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35051546" vertical-offset="85" max-vertical-offset="1479">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usably-laravel/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12518409" vertical-offset="0" max-vertical-offset="679">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,6 +907,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21702127" vertical-offset="0" max-vertical-offset="705">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usably-laravel/public/css/progress-circle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7106383" vertical-offset="638" max-vertical-offset="1343">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7307692" vertical-offset="813" max-vertical-offset="1479">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06593407" vertical-offset="1981" max-vertical-offset="2618">
+          <caret line="119" column="24" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
           <folding />
         </state>
       </provider>
