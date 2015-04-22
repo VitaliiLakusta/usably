@@ -16,6 +16,32 @@
     <!-- Font-awesome.css for awesome icons -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+     $(document).ready(function(){
+          //add to list animation
+          $('.success-alert').click(function AddIssueToList(){
+              $(this).parent().parent().parent('.issue').stop(true,true).animate({marginLeft:'150px',opacity:'hide'},700);
+          }),
+          //success alert animation
+          $(".success-alert").click(function showSuccessAlert() {
+              setTimeout(function() {
+                $(".alert-success").alert().slideDown(700);
+                $(".alert-success").fadeTo(2000, 1).slideUp(700, function(){
+                $(".alert-success").hide();
+                });
+              },300);
+          }),
+          //error alert animation
+          $(".error-alert").click(function showErrorAlert() {
+              setTimeout(function() {
+                $(".alert-danger").alert().slideDown(700);
+                $(".alert-danger").fadeTo(2000, 1).slideUp(700, function(){
+                $(".alert-danger").hide();
+                });
+              },300)
+          });
+      });
+    </script>
 
 </head>
 
@@ -28,7 +54,16 @@
             <li><a href="#">Issues and Fixes</a></li>
             <li class="active">Task Lists</li>
         </ol>
-        <div class="">
+        <div class="row">
+            <div class="alert alert-success" style="display:none;">
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <strong>Success!</strong> Issue has been added to to do list succesfully.
+            </div>
+
+            <div class="alert alert-danger" style="display:none;">
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <strong>Error!</strong> An error occured while adding issue to list. This information is just for demonstrate.
+            </div>        
             <!-- Nav tabs -->
             <ul class="nav nav-tabs issue-tabs-main" role="tablist">
                 <li><a href="#"> Usably Indicators</a></li>
@@ -55,7 +90,7 @@
                                         <span>Make it difficult to take invalid actions. Limit choices when possible to those which are correct, provide clear examples for data entry, present only appropriate navigation option.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -65,7 +100,7 @@
                                         <span>Navigation design elements such as keyboard shortcuts, menus, links and other buttons all have an impact on efficiency</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list error-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -75,7 +110,7 @@
                                         <span>When they are well-designed, with clearly expressed actions, less time and effort are needed for the uesr to make navigation and action choices..</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -90,7 +125,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -105,7 +140,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -120,7 +155,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -139,7 +174,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -154,7 +189,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -169,7 +204,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -184,7 +219,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -199,7 +234,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -214,7 +249,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -229,7 +264,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -244,7 +279,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -259,7 +294,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -274,7 +309,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -288,7 +323,7 @@
                                         <span>Make it difficult to take invalid actions. Limit choices when possible to those which are correct, provide clear examples for data entry, present only appropriate navigation option.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -298,7 +333,7 @@
                                         <span>Navigation design elements such as keyboard shortcuts, menus, links and other buttons all have an impact on efficiency</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -308,7 +343,7 @@
                                         <span>When they are well-designed, with clearly expressed actions, less time and effort are needed for the uesr to make navigation and action choices..</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -336,7 +371,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -346,7 +381,7 @@
                                         <span>Navigation design elements such as keyboard shortcuts, menus, links and other buttons all have an impact on efficiency</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -356,7 +391,7 @@
                                         <span>When they are well-designed, with clearly expressed actions, less time and effort are needed for the uesr to make navigation and action choices..</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -371,7 +406,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -386,7 +421,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -401,7 +436,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -420,7 +455,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -435,7 +470,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -450,7 +485,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -465,7 +500,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -480,7 +515,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -495,7 +530,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -510,7 +545,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -525,7 +560,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -540,7 +575,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -555,7 +590,7 @@
                                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -569,7 +604,7 @@
                                         <span>Make it difficult to take invalid actions. Limit choices when possible to those which are correct, provide clear examples for data entry, present only appropriate navigation option.</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -579,7 +614,7 @@
                                         <span>Navigation design elements such as keyboard shortcuts, menus, links and other buttons all have an impact on efficiency</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>
@@ -589,7 +624,7 @@
                                         <span>When they are well-designed, with clearly expressed actions, less time and effort are needed for the uesr to make navigation and action choices..</span>
                                     </div>
                                     <div class="col-md-4 issue-actions">
-                                        <div><a class="add-issue-list" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
+                                        <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
                                         <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                     </div>
                                 </div>

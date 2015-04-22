@@ -20,6 +20,7 @@ jQuery(document).ready(function($) {
         ctx.lineTo(0.0, 78.3);
         ctx.lineTo(74.5, 67.5);
         ctx.lineTo(107.8, 0.0);
+       // ctx.rect(0,0,210,210);
         ctx.lineWidth = 8;
         ctx.lineJoin = "round";
         ctx.strokeStyle = "#fff";
@@ -32,8 +33,8 @@ jQuery(document).ready(function($) {
     var draw_fill = function(fill_percent) {
         fill_percent = typeof fill_percent !== 'undefined' ? fill_percent : 0;
         var w = ctx.canvas.width * 3;
-        var h = ctx.canvas.height * 2.8;
-        var h_scaled = h / 100;
+        var h = ctx.canvas.height * 2.85;
+        var h_scaled = h / 107;
         var fill_level = h - h_scaled * fill_percent;
         ctx.save(); // save current clipping setting as default
         ctx.beginPath();

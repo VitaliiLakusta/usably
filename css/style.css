@@ -53,12 +53,6 @@ a:hover {
     //left: 20px;
 }
 
-.issue-actions span {
-    font-size: 15px;
-    margin-right: 10px;
-    position: relative;
-    top: -2px;
-}
 
 .panel > .issue h4 {
     float: left;
@@ -68,10 +62,6 @@ a:hover {
     padding: 5px 15px;
 }
 
-.panel .issue-actions {
-    top: 8px;
-    font-size: 18px;
-}
 
 .panel-danger > .issue-heading {
     background-color: #DB524A;
@@ -95,12 +85,37 @@ a:hover {
     top: 34px;
 }
 
-.issue-actions div {
-    padding: 5px;
+.panel .issue-actions {
+    top: 8px;
+    font-size: 18px;
 }
+
+ 
 
 .issue-actions a {
     color: #ABABAB;
+}
+
+.issue-actions span {
+    font-size: 15px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.issue-actions .fa {
+    font-size: 18px;
+}
+
+/* .fa-th-list class and .fa-info-class is a child class of issue-actions. */
+.issue-actions .fa-th-list:hover, .add-issue-list:hover {
+    color: #6cb043;
+    text-decoration: none;
+}
+
+.issue-actions .fa-info-circle:hover, .view-issue-details:hover {
+    color: #327BBA;
+    text-decoration: none;
 }
 
 .view-all-issues {
@@ -124,21 +139,6 @@ a:hover {
 .fa {
     padding-right: 5px;
     padding-left: 5px;
-}
-
-.issue-actions .fa {
-    font-size: 18px;
-}
-
-/* .fa-th-list class and .fa-info-class is a child class of issue-actions. */
-.issue-actions .fa-th-list:hover, .add-issue-list:hover {
-    color: #6cb043;
-    text-decoration: none;
-}
-
-.issue-actions .fa-info-circle:hover, .view-issue-details:hover {
-    color: #327BBA;
-    text-decoration: none;
 }
 
 .issue-tabs-main, .indicators-tabs-main {
@@ -297,9 +297,4 @@ code {
 
 #examples > hr {
     margin: 20px 10px;
-}
-
-
-.panel:hover {
-    top: 6px;
 }
