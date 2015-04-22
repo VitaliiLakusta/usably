@@ -26,24 +26,10 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/rating_star.js"></script>
-    <script type="text/javascript" src="/js/progress-circle.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-        //tooltip
-        $('[data-toggle="tooltip"]').tooltip(),
-        //success alert animation
-        $(".formval-calc-details").click(function showCalcInfo() {
-            $(".ali1").slideToggle(800);
-        }),
-        $(".shopcard-calc-details").click(function showCalcInfo() {
-            $(".ali2").slideToggle(800);
-        }),
-        $('.close-info').click(function() {
-            $(this).parent().slideUp(800);
-        });
-    });
-    </script>
+
+    {{-----------------ADDITIONAL LINKS TO FILES GO HERE-----------------------}}
+    @yield('header')
+
 </head>
 
 <body>

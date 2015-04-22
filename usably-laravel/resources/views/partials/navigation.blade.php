@@ -138,7 +138,7 @@
                 </ul>
             </li>
             <li>
-                <a href="blank-page.html"><i class="fa fa-th-list"></i> Issues & Fixes</a>
+                <a href="issues"><i class="fa fa-th-list"></i> Issues & Fixes</a>
             </li>
             <li>
                 <a href="index-rtl.html"><i class="fa fa-book"></i> Knowledge Base</a>

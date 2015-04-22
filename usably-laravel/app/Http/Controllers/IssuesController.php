@@ -14,7 +14,7 @@ class IssuesController extends Controller {
 	 */
 	public function index()
 	{
-		return view('issues.index');
+		return view('issues');
 	}
 
 	/**
