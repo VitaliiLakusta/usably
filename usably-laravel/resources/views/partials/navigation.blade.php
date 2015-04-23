@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Usably</a>
+        <a class="navbar-brand" href="/indicators">@include('usably-logo-svg')</a>
     </div>
     <!-- Top Menu Items -->
     <ul class="nav navbar-right top-nav">
@@ -118,30 +118,30 @@
                 <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-dashboard"></i> Dashboard <i class="fa fa-fw fa-caret-down"></i></a>
                 <ul id="demo" class="collapse">
                     <li>
-                        <a href="#">Learnability</a>
+                        <a href="/indicators/efficiency">Learnability</a>
                     </li>
                     <li>
-                        <a href="#">Efficiency</a>
+                        <a href="/indicators/efficiency">Efficiency</a>
                     </li>
                     <li>
-                        <a href="#">Avoiding Mistakes</a>
+                        <a href="/indicators/efficiency">Avoiding Mistakes</a>
                     </li>
                     <li>
-                        <a href="#">Satisfaction</a>
+                        <a href="/indicators/efficiency">Satisfaction</a>
                     </li>
                     <li>
-                        <a href="#">Information Overload</a>
+                        <a href="/indicators/efficiency">Information Overload</a>
                     </li>
                     <li>
-                        <a href="#">Goal Orientation Rate</a>
+                        <a href="/indicators/efficiency">Goal Orientation Rate</a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="issues"><i class="fa fa-th-list"></i> Issues & Fixes</a>
+                <a href="/issues"><i class="fa fa-th-list"></i> Issues & Fixes</a>
             </li>
             <li>
-                <a href="index-rtl.html"><i class="fa fa-book"></i> Knowledge Base</a>
+                <a href="/knowledge-base"><i class="fa fa-book"></i> Knowledge Base</a>
             </li>
         </ul>
     </div>

@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ddf273-e275-474a-9ea6-78a0069fc4d5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usably-laravel/resources/views/usably-logo-svg.blade.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\usably\usably-laravel\resources\views\issues\index.blade.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/resources/views/issues/critical-issues.blade.php" afterPath="$PROJECT_DIR$/usably-laravel/resources/views/issues/critical-issues.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php" afterPath="$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/usably-laravel/resources/views/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/public/js/main.js" afterPath="$PROJECT_DIR$/usably-laravel/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php" afterPath="$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/app/Http/routes.php" afterPath="$PROJECT_DIR$/usably-laravel/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usably-laravel/public/css/style.css" afterPath="$PROJECT_DIR$/usably-laravel/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="usably.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,30 +39,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usably-laravel/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="340">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/usably-laravel/public/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66241133" vertical-offset="281" max-vertical-offset="986">
-              <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
-              <folding>
-                <element signature="n#!!block;n#createLineChart#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usably-laravel/public/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6316" max-vertical-offset="7038">
-              <caret line="407" column="0" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -64,14 +49,19 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9615383" vertical-offset="983" max-vertical-offset="1989">
-              <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
-              <folding>
-                <element signature="e#1972#2000#0#HTML" expanded="true" />
-                <element signature="e#2300#2335#0#HTML" expanded="true" />
-                <element signature="e#2378#2448#0#HTML" expanded="true" />
-                <element signature="e#2982#3004#0#HTML" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1989">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="33" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usably-laravel/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6401" max-vertical-offset="7123">
+              <caret line="412" column="14" selection-start-line="412" selection-start-column="14" selection-end-line="412" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,8 +69,32 @@
       <file leaf-file-name="critical-issues.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/issues/critical-issues.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1360">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="28" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1360">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="efficiency.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8131868" vertical-offset="3664" max-vertical-offset="4641">
+              <caret line="246" column="57" selection-start-line="246" selection-start-column="57" selection-end-line="246" selection-end-column="57" />
+              <folding>
+                <element signature="e#6178#6200#0#HTML" expanded="true" />
+                <element signature="e#7359#7380#0#HTML" expanded="true" />
+                <element signature="e#7621#7642#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="2618">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -103,7 +117,6 @@
         <option value="$PROJECT_DIR$/issues.html" />
         <option value="$PROJECT_DIR$/usably-laravel/.env" />
         <option value="$PROJECT_DIR$/usably-laravel/resources/assets/less/app.less" />
-        <option value="$PROJECT_DIR$/usably-laravel/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/usably-laravel/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/usably-laravel/app/Http/Controllers/IndicatorsController.php" />
         <option value="$PROJECT_DIR$/usably-laravel/resources/views/welcome.blade.php" />
@@ -113,14 +126,17 @@
         <option value="$PROJECT_DIR$/usably-laravel/public/js/progress-circle.js" />
         <option value="$PROJECT_DIR$/usably-laravel/public/css/progress-circle.css" />
         <option value="$PROJECT_DIR$/usably-laravel/app/Http/Controllers/IssuesController.php" />
-        <option value="$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php" />
         <option value="$PROJECT_DIR$/usably-laravel/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/usably-laravel/resources/views/issues.blade.php" />
-        <option value="$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php" />
-        <option value="$PROJECT_DIR$/usably-laravel/resources/views/issues/critical-issues.blade.php" />
-        <option value="$PROJECT_DIR$/usably-laravel/public/css/style.css" />
-        <option value="$PROJECT_DIR$/usably-laravel/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/usably-laravel/public/js/main.js" />
+        <option value="$PROJECT_DIR$/usably-laravel/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/usably-laravel/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/usably-laravel/resources/views/issues/critical-issues.blade.php" />
+        <option value="$PROJECT_DIR$/usably-laravel/resources/usably-logo-svg.blade.php" />
+        <option value="$PROJECT_DIR$/usably-laravel/resources/views/usably-logo-svg.blade.php" />
+        <option value="$PROJECT_DIR$/usably-laravel/public/css/style.css" />
+        <option value="$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php" />
+        <option value="$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php" />
       </list>
     </option>
   </component>
@@ -238,59 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="issues" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usably-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="indicators" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,6 +387,9 @@
       <recent name="C:\xampp\htdocs\usably\usably-laravel\public\build" />
       <recent name="C:\xampp\htdocs\usably\usably-laravel\public\fonts" />
       <recent name="C:\xampp\htdocs\usably\usably-laravel\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\usably\usably-laravel\resources\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -580,13 +547,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/usably-laravel/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usably-laravel/bootstrap/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
@@ -863,22 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/issues/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.951952" vertical-offset="0" max-vertical-offset="3791">
-          <caret line="194" column="34" selection-start-line="194" selection-start-column="34" selection-end-line="194" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4714715" vertical-offset="0" max-vertical-offset="2618">
-          <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usably-laravel/app/Http/Controllers/IssuesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17525773" vertical-offset="102" max-vertical-offset="1479">
@@ -891,14 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1241">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="4097">
-          <caret line="5" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="235" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -938,49 +874,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/usably-laravel/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="340">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.49361703" vertical-offset="349" max-vertical-offset="1156">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#createLineChart#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/usably-logo-svg.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02503682" vertical-offset="0" max-vertical-offset="935">
+          <caret line="1" column="87" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/usably-laravel/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6316" max-vertical-offset="7038">
-          <caret line="407" column="0" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="6401" max-vertical-offset="7123">
+          <caret line="412" column="14" selection-start-line="412" selection-start-column="14" selection-end-line="412" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/issues/critical-issues.blade.php">
+    <entry file="file://$PROJECT_DIR$/usably-laravel/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1360">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="28" />
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9615383" vertical-offset="983" max-vertical-offset="1989">
-          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
-          <folding>
-            <element signature="e#1972#2000#0#HTML" expanded="true" />
-            <element signature="e#2300#2335#0#HTML" expanded="true" />
-            <element signature="e#2378#2448#0#HTML" expanded="true" />
-            <element signature="e#2982#3004#0#HTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1989">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="33" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usably-laravel/public/js/main.js">
+    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/partials/navigation.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66241133" vertical-offset="281" max-vertical-offset="986">
-          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="2618">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/issues/critical-issues.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usably-laravel/resources/views/indicators/efficiency.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8131868" vertical-offset="3664" max-vertical-offset="4641">
+          <caret line="246" column="57" selection-start-line="246" selection-start-column="57" selection-end-line="246" selection-end-column="57" />
           <folding>
-            <element signature="n#!!block;n#createLineChart#0" expanded="false" />
+            <element signature="e#6178#6200#0#HTML" expanded="true" />
+            <element signature="e#7359#7380#0#HTML" expanded="true" />
+            <element signature="e#7621#7642#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

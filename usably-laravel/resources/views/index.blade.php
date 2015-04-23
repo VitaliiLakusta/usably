@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="panel-body">
-                    <div class="view-usably-details"><a href="#">View details<i class="fa fa-info-circle"></i></a></div>
+                    <div class="view-usably-details"><a href="/indicators/efficiency">View details<i class="fa fa-info-circle"></i></a></div>
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@
                             <div class="canvas-holder">
                                 <canvas id="indicators-chart"></canvas>
                             </div>
-                            <div class="view-usably-details"><a href="#">View details<i class="fa fa-info-circle"></i></a></div>
+                            <div class="view-usably-details"><a href="/indicators/efficiency">View details<i class="fa fa-info-circle"></i></a></div>
                         </div>
                     </div>
                 </div>

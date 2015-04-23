@@ -69,7 +69,7 @@
                 </div>
             </div>
         </div>
-        <div class="view-all-issues"><a href="#">View all issues<i class="fa fa-info-circle"></a></i></div>
+        <div class="view-all-issues"><a href="/issues">View all issues<i class="fa fa-info-circle"></a></i></div>
     </div>
 </div>
 </div>

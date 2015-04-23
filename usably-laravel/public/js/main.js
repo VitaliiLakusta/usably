@@ -46,40 +46,50 @@ function createPolarChart() {
 
     var dataPolar = [
         {
-            value: 300,
-            color:"#F7464A",
-            highlight: "#FF5A5E",
-            label: "Easy to use"
+            value: 95,
+            color:"#C2D05B",
+            highlight: "#C2D05B",
+            label: "Learnability"
         },
         {
             value: 50,
-            color: "#46BFBD",
-            highlight: "#5AD3D1",
-            label: "Intuitive"
+            color: "#F4BE6B",
+            highlight: "#F4BE6B",
+            label: "Efficiency"
         },
         {
-            value: 100,
-            color: "#FDB45C",
-            highlight: "#FFC870",
-            label: "Credible"
+            value: 66,
+            color: "#E1726D",
+            highlight: "#E1726D",
+            label: "Avoiding Mistakes"
         },
         {
             value: 40,
-            color: "#949FB1",
-            highlight: "#A8B3C5",
-            label: "Trustable"
+            color: "#64B4A8",
+            highlight: "#64B4A8",
+            label: "Satisfaction"
         },
         {
-            value: 120,
-            color: "#4D5360",
-            highlight: "#616774",
-            label: "Fast"
+            value: 100,
+            color: "#00A651",
+            highlight: "#00A651",
+            label: "Information Overload"
+        },
+        {
+            value: 39,
+            color: "#5894C7",
+            highlight: "#5894C7",
+            label: "Goal Orientation Rate"
         }
 
     ];
 
     var myPolarChart = new Chart(ctxTotalURate).PolarArea(dataPolar, {
         animation: true,
+        scaleShowLine: false,
+        animateScale : true,
+        animationSteps : 90,
+        animationEasing: "easeOutQuart",
         onAnimationComplete : function() {
         }
     });
