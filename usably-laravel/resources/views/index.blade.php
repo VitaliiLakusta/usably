@@ -83,7 +83,8 @@
             <div class="row usability-indicators-chart-row">
                 <div class="col-md-12">
                     <div class="panel panel-primary">
-                        <div class="panel-heading">Usability Indicators</div>
+                        <div class="panel-heading">
+                             <span style="font-size:18px">Usability Indicators</span></div>
                         <div class="panel-body">
                             <div class="canvas-holder">
                                 <canvas id="indicators-chart"></canvas>
@@ -94,7 +95,6 @@
                 </div>
             </div>
         </div>
-
         <div class="col-md-3">
             @include('issues.critical-issues')
         </div>

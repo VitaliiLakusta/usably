@@ -31,7 +31,7 @@
                         setTimeout(function() {
                             $(".alert-success").alert().slideDown(700);
                             $(".alert-success").fadeTo(1500, 1).slideUp(700, function(){
-                                $(".alert-success").hide();
+                            $(".alert-success").hide();
                             });
                         },300)
                     }),
@@ -40,7 +40,7 @@
                         setTimeout(function() {
                             $(".alert-danger").alert().slideDown(700);
                             $(".alert-danger").fadeTo(1500, 1).slideUp(700, function(){
-                                $(".alert-danger").hide();
+                            $(".alert-danger").hide();
                             });
                         },300)
                     });
@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <div class="issue-actions" style="top:0">
-                    <a style="cursor:pointer" class="formval-calc-details" data-toggle="tooltip" data-placement="top" data-original-title="Click to see calculation method"><i style="font-size: 21px;" class="fa fa-info-circle"></i></a>
+                    <a class="formval-calc-details" data-toggle="tooltip" data-placement="top" data-original-title="Click to see calculation method"><i style="font-size: 21px;" class="fa fa-info-circle"></i></a>
                 </div>
             </div>
             <div class="col-md-6 col-metric-description">
@@ -155,7 +155,7 @@
             </div>
             <div class="col-md-4 col-metric-issues">
                 <div class="alert alert-success" style="display:none;">
-                    <a href="#" class="close" data-dismiss="alert">&times;</a>
+                    <a class="close" data-dismiss="alert">&times;</a>
                     <strong>Success!</strong> Issue has been added to list succesfully.
                 </div>
 
@@ -167,22 +167,22 @@
                     <div class="panel-body issue 1">
                         <h4>Form validation errors</h4>
                         <div class="issue-actions">
-                            <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                            <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
                     <div class="panel-body issue 2">
                         <h4>Unfinished checkout rate</h4>
                         <div class="issue-actions">
-                            <a class="add-to-list error" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                            <a class="add-to-list error" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
                     <div class="panel-body issue 3">
                         <h4>Search efficiency</h4>
                         <div class="issue-actions">
-                            <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                            <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
                 </div>
@@ -214,7 +214,7 @@
                     </div>
                 </div>
                 <div class="issue-actions" style="top:0">
-                    <a style="cursor:pointer" class="shopcard-calc-details" data-toggle="tooltip" data-placement="top" data-original-title="Click to see calculation method"><i style="font-size: 21px;" class="fa fa-info-circle"></i></a>
+                    <a class="shopcard-calc-details" data-toggle="tooltip" data-placement="top" data-original-title="Click to see calculation method"><i style="font-size: 21px;" class="fa fa-info-circle"></i></a>
                 </div>
             </div>
             <div class="col-md-6 col-metric-description">
@@ -234,22 +234,22 @@
                     <div class="panel-body issue 1">
                         <h4>Form validation errors</h4>
                         <div class="issue-actions">
-                            <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                            <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
                     <div class="panel-body issue 2">
                         <h4>Unfinished checkout rate</h4>
                         <div class="issue-actions">
-                            <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                            <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
                     <div class="panel-body issue 3">
                         <h4>Search efficiency</h4>
                         <div class="issue-actions">
-                            <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                            <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
                 </div>

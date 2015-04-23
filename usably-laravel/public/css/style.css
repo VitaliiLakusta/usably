@@ -29,6 +29,7 @@ body {
 }
 
 a {
+    cursor: pointer;
     -moz-transition: all .25s ease;
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
@@ -101,8 +102,7 @@ a:hover {
 
 .panel > .issue-heading {
     color: #fff;
-    font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .panel-danger {

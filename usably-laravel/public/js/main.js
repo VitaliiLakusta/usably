@@ -33,12 +33,7 @@ function createLineChart() {
         ]
     };
 
-    var myLineChart = new Chart(ctxLine).Line(dataLine, {
-        onAnimationComplete: function() {
-            $(".youtube-video").fadeIn("fast");
-            createBarChart();
-        }
-    });
+    var myLineChart = new Chart(ctxLine).Line(dataLine);
 }
 
 function createPolarChart() {
@@ -81,12 +76,11 @@ function createPolarChart() {
             highlight: "#5894C7",
             label: "Goal Orientation Rate"
         }
-
     ];
 
     var myPolarChart = new Chart(ctxTotalURate).PolarArea(dataPolar, {
         animation: true,
-        scaleShowLine: false,
+        scaleShowLine: true,
         animateScale : true,
         animationSteps : 90,
         animationEasing: "easeOutQuart",
