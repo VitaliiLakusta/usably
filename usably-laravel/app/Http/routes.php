@@ -16,6 +16,11 @@ Route::get('issues', 'IssuesController@index');
 Route::get('knowledge-base', function() {
     return "Here you should see the knowledge base page. You will see it really soon here :)";
 });
+
+Route::get('home', function() {
+    redirect('indicators');
+});
+
 Route::resource('indicators', 'IndicatorsController');
 
 Route::controllers([

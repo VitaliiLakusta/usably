@@ -49,6 +49,7 @@
 				<div class="title">Usably</div>
 				<div class="quote">{{ Inspiring::quote() }}</div>
                 <a href="{{url('auth/login')}}" class="btn btn-primary btn-sign-in" role="button">Sign In</a>
+                <a href="{{url('auth/register')}}" class="btn btn-primary btn-sign-in" role="button">Register</a>
 			</div>
 		</div>
 	</body>

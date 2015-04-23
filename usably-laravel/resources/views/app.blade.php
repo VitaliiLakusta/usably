@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-{{--FOR DEBUGGING--}}
-<?php $user = New \App\User(); $user->name="Vitalii" ?>
 <head>
 
     <meta charset="utf-8">
@@ -36,7 +34,7 @@
 
 <div id="wrapper">
 
-    @include('partials.navigation')
+    @yield('navigation')
 
     <div class="page-wrapper">
         <div class="container-fluid">

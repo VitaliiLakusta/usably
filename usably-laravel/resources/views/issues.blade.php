@@ -1,5 +1,9 @@
 @extends('app')
 
+@section('navigation')
+    @include('partials.navigation');
+@stop
+
 @section('header')
 
     <script type="text/javascript">

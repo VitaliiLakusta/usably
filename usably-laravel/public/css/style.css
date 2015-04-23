@@ -402,13 +402,13 @@ code {
     padding-right: 30px;
 }
 
-
-/* --------------------STYLES FOR THE MAIN PAGE---------------------------*/
-.usability-indicators-chart-row {
-
-}
-
 .usably-logo-svg {
     width: 45px;
     height: 45px;
+}
+
+/* ---------------------------------------------------------------------*/
+
+.login-form-row {
+
 }
