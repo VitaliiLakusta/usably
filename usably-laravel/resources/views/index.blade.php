@@ -46,7 +46,7 @@
     </div>
 
     <div class="row indicator-panel">
-        
+
         <div class="col-md-3">
             <div class="panel panel-primary">
                 <div class="panel-heading" style="padding-bottom:15px;">
@@ -65,12 +65,29 @@
         </div>
 
         <div class="col-md-6">
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <span style="font-size:18px">Usability rate over time</span>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <span style="font-size:18px">Usability rate over time</span>
+                        </div>
+                        <div class="panel-body">
+                            <canvas id="lineChart1" height="50"></canvas>
+                        </div>
+                    </div>
                 </div>
-                <div class="panel-body">
-                    <canvas id="lineChart1" height="50"></canvas>
+            </div>
+            <div class="row usability-indicators-chart-row">
+                <div class="col-md-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Usability Indicators</div>
+                        <div class="panel-body">
+                            <div class="canvas-holder">
+                                <canvas id="indicators-chart"></canvas>
+                            </div>
+                            <div class="view-usably-details"><a href="#">View details<i class="fa fa-info-circle"></i></a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
