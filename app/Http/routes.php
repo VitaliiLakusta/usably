@@ -14,7 +14,7 @@
 Route::get('/', 'WelcomeController@index');
 Route::get('issues', 'IssuesController@index');
 Route::get('knowledge-base', function() {
-    return "Here you should see the knowledge base page. You will see it really soon here :)";
+    return view('knowledge-base');
 });
 
 Route::get('home', function() {
