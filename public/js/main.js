@@ -1,4 +1,6 @@
 
+
+alert("hello from main.js");
 Chart.defaults.global.responsive = true;
 
 /* create a line chart */
