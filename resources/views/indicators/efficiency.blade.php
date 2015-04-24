@@ -168,21 +168,21 @@
                         <h4>Form validation errors</h4>
                         <div class="issue-actions">
                             <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" href="/knowledge-base" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
                     <div class="panel-body issue 2">
                         <h4>Unfinished checkout rate</h4>
                         <div class="issue-actions">
                             <a class="add-to-list error" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" href="/knowledge-base" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
                     <div class="panel-body issue 3">
                         <h4>Search efficiency</h4>
                         <div class="issue-actions">
                             <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" href="/knowledge-base" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
                 </div>

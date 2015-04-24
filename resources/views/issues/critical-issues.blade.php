@@ -16,42 +16,42 @@
                 <h4>Form validation errors</h4>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
             <div class="panel-body issue 2">
                 <h4>Unfinished checkout rate</h4>
                 <div class="issue-actions">
                     <a class="error" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
             <div class="panel-body issue 3">
                 <h4>Search efficiency</h4>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
             <div class="panel-body issue 4">
                 <h4>Memorability</h4>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
             <div class="panel-body issue 5">
                 <h4>Support satisfaction</h4>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
             <div class="panel-body issue 6">
                 <h4>Filling forms</h4>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
-                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
+                    <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
             <div class="panel-body issue 7">

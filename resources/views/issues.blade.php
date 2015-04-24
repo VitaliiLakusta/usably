@@ -81,7 +81,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 2">
@@ -91,7 +91,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list error-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 3">
@@ -101,7 +101,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 4">
@@ -116,7 +116,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 5">
@@ -131,7 +131,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base" ><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 6">
@@ -146,7 +146,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                         </ol>
@@ -165,7 +165,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 2">
@@ -180,7 +180,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 3">
@@ -195,7 +195,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 4">
@@ -210,7 +210,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 5">
@@ -225,7 +225,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 6">
@@ -240,7 +240,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 7">
@@ -255,7 +255,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 8">
@@ -270,7 +270,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 9">
@@ -285,7 +285,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 10">
@@ -362,7 +362,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 2">
@@ -372,7 +372,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 3">
@@ -446,7 +446,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 2">
@@ -461,7 +461,7 @@
                                 </div>
                                 <div class="col-md-4 issue-actions">
                                     <div><a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a></div>
-                                    <div><a class="view-issue-details" href="#"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
+                                    <div><a class="view-issue-details" href="/knowledge-base"><span>View details</span><i class="fa fa-info-circle"></i></a></div>
                                 </div>
                             </div>
                             <div class="row issue 3">
