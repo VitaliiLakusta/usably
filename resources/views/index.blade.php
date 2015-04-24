@@ -8,8 +8,6 @@
     <script type="text/javascript" src="/js/rating_star.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-
-            alert("hello from script from heading!!!");
             //tooltip
             $('[data-toggle="tooltip"]').tooltip(),
                 //add to list animation
