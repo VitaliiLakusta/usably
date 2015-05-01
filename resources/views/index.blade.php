@@ -10,28 +10,28 @@
         $(document).ready(function(){
             //tooltip
             $('[data-toggle="tooltip"]').tooltip(),
-                //add to list animation
-                    $('.add-to-list').click(function AddIssueToList(){
-                        $(this).parent().parent('.issue').stop(true,true).animate({marginLeft:'150px',opacity:'hide'},700);
-                    }),
-                //success alert animation
-                    $(".add-to-list").click(function showSuccessAlert() {
-                        setTimeout(function() {
-                            $(".alert-success").alert().slideDown(700);
-                            $(".alert-success").fadeTo(1500, 1).slideUp(700, function(){
-                                $(".alert-success").hide();
-                            });
-                        },300)
-                    }),
-                //error alert animation
-                    $(".error").click(function showErrorAlert() {
-                        setTimeout(function() {
-                            $(".alert-danger").alert().slideDown(700);
-                            $(".alert-danger").fadeTo(1500, 1).slideUp(700, function(){
-                                $(".alert-danger").hide();
-                            });
-                        },300)
+            //add to list animation
+            $('.add-to-list').click(function AddIssueToList(){
+                $(this).parent().parent('.issue').stop(true,true).animate({marginLeft:'150px',opacity:'hide'},700);
+            }),
+            //success alert animation
+            $(".add-to-list").click(function showSuccessAlert() {
+                setTimeout(function() {
+                    $(".alert-success").alert().slideDown(700);
+                    $(".alert-success").fadeTo(1500, 1).slideUp(700, function(){
+                        $(".alert-success").hide();
                     });
+                },300)
+            }),
+            //error alert animation
+            $(".error").click(function showErrorAlert() {
+                setTimeout(function() {
+                    $(".alert-danger").alert().slideDown(700);
+                    $(".alert-danger").fadeTo(1500, 1).slideUp(700, function(){
+                    $(".alert-danger").hide();
+                    });
+                },300)
+            });
         });
 
     </script>

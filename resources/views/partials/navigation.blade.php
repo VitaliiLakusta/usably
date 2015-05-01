@@ -138,7 +138,7 @@
                 </ul>
             </li>
             <li>
-                <a href="/issues"><i class="fa fa-th-list"></i> Issues & Fixes</a>
+                <a class="link-to-issue" href="/issues"><i class="fa fa-th-list"></i> Issues & Fixes <span class="issue-notify">10</span></a>
             </li>
             <li>
                 <a href="/knowledge-base"><i class="fa fa-book"></i> Knowledge Base</a>
