@@ -84,7 +84,7 @@
                         <canvas id="star_rate" width="70" height="70"></canvas>
                     </div>
                     <div class="col-md-6 usably_rate_info">
-                        <span id="counter" data-fill="53"></span><span style="font-size:70%;color:#0F426E">/100</span>
+                        <span id="counter" data-fill="60"></span><span style="font-size:70%;color:#0F426E">/100</span>
                         <span style="font-size:50%;font-weight:bold;display:block;margin-left:-25px">Efficiency Rate</span>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
         <div class="col-md-3">
             <div class="panel panel-primary indicator-description-box">
                 <div class="panel-body">
-                    <h4>Efficiency Description</h4>
+                    <div class="issue-title" onclick="location.href='/indicators/efficiency'">Efficiency Description</div>
                     Efficiency means lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum
                     lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum
                     <div class="view-usably-details">
@@ -122,7 +122,7 @@
     <div class="row indicator-metric-row">
         <div class="row">
             <h3 class="col-md-8 metric-title">Form Validation Errors</h3>
-            <h4 class="col-md-4 related-issues-fixes-text">Related Issues and Fixes</h4>
+            <h4 class="col-md-4 related-issues-fixes-text">Related Issues and Fixes</div>
         </div>
         <hr class="hr-small-margin">
         <div class="row indicator-metric-content">
@@ -163,23 +163,23 @@
                     <a href="#" class="close" data-dismiss="alert">&times;</a>
                     <strong>Error!</strong> An error occured while adding issue to list. This information is just for demonstrate.
                 </div>
-                <div class="panel panel-default">
-                    <div class="panel-body issue 1">
-                        <h4>Form validation errors</h4>
+                <div class="panel panel-default" style="border-color:transparent">
+                    <div class="panel-body issue 1 critical">
+                        <div class="issue-title" onclick="location.href='/indicators/efficiency'">Form validation errors</div>
                         <div class="issue-actions">
                             <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
                             <a data-toggle="tooltip" data-placement="top" href="/knowledge-base" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
-                    <div class="panel-body issue 2">
-                        <h4>Unfinished checkout rate</h4>
+                    <div class="panel-body issue 2 critical">
+                        <div class="issue-title" onclick="location.href='/indicators/efficiency'">Unfinished checkout rate</div>
                         <div class="issue-actions">
                             <a class="add-to-list error" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
                             <a data-toggle="tooltip" data-placement="top" href="/knowledge-base" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
-                    <div class="panel-body issue 3">
-                        <h4>Search efficiency</h4>
+                    <div class="panel-body issue 3 important">
+                        <div class="issue-title" onclick="location.href='/indicators/efficiency'">Search efficiency</div>
                         <div class="issue-actions">
                             <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
                             <a data-toggle="tooltip" data-placement="top" href="/knowledge-base" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
@@ -198,7 +198,7 @@
 <div class="row indicator-metric-row">
         <div class="row">
             <h3 class="col-md-8 metric-title">Shopping Cart Abandonment</h3>
-            <h4 class="col-md-4 related-issues-fixes-text">Related Issues and Fixes</h4>
+            <h4 class="col-md-4 related-issues-fixes-text">Related Issues and Fixes</div>
         </div>
         <hr class="hr-small-margin">
         <div class="row indicator-metric-content">
@@ -230,23 +230,23 @@
                 </p>
             </div>
             <div class="col-md-4 col-metric-issues">
-                <div class="panel panel-default">
-                    <div class="panel-body issue 1">
-                        <h4>Form validation errors</h4>
+                <div class="panel panel-default" style="border-color:transparent">
+                    <div class="panel-body issue 1 critical">
+                        <div class="issue-title" onclick="location.href='/indicators/efficiency'">Form validation errors</div>
                         <div class="issue-actions">
                             <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
                             <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
-                    <div class="panel-body issue 2">
-                        <h4>Unfinished checkout rate</h4>
+                    <div class="panel-body issue 2 critical">
+                        <div class="issue-title" onclick="location.href='/indicators/efficiency'">Unfinished checkout rate</div>
                         <div class="issue-actions">
                             <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
                             <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
-                    <div class="panel-body issue 3">
-                        <h4>Search efficiency</h4>
+                    <div class="panel-body issue 3 important">
+                        <div class="issue-title" onclick="location.href='/indicators/efficiency'">Search efficiency</div>
                         <div class="issue-actions">
                             <a class="add-to-list success" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
                             <a data-toggle="tooltip" data-placement="top" data-original-title="Details"><i class="fa fa-info-circle"></i></a>

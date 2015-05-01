@@ -11,58 +11,58 @@
 <div class="panel panel-danger">
     <div class="panel-heading issue-heading">Critical Issues</div>
     <div class="panel-body">
-        <div class="panel panel-default">
-            <div class="panel-body issue 1">
-                <h4>Form validation errors</h4>
+        <div class="panel panel-default" style="border-color:transparent">
+            <div class="panel-body issue 1 critical">
+                <div class="issue-title" onclick="location.href='/indicators/efficiency'">Form validation errors</div>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
                     <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
-            <div class="panel-body issue 2">
-                <h4>Unfinished checkout rate</h4>
+            <div class="panel-body issue 2 critical">
+                <div class="issue-title" onclick="location.href='/indicators/efficiency'">Unfinished checkout rate</div>
                 <div class="issue-actions">
                     <a class="error" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
                     <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
-            <div class="panel-body issue 3">
-                <h4>Search efficiency</h4>
+            <div class="panel-body issue 3 important">
+                <div class="issue-title" onclick="location.href='/indicators/efficiency'">Search efficiency</div>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
                     <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
-            <div class="panel-body issue 4">
-                <h4>Memorability</h4>
+            <div class="panel-body issue 4 average">
+                <div class="issue-title" onclick="location.href='/indicators/efficiency'">Memorability</div>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
                     <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
-            <div class="panel-body issue 5">
-                <h4>Support satisfaction</h4>
+            <div class="panel-body issue 5 average">
+                <div class="issue-title" onclick="location.href='/indicators/efficiency'">Support satisfaction</div>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
                     <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
-            <div class="panel-body issue 6">
-                <h4>Filling forms</h4>
+            <div class="panel-body issue 6 normal">
+                <div class="issue-title" onclick="location.href='/indicators/efficiency'">Filling forms</div>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
                     <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="/knowledge-base"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
-            <div class="panel-body issue 7">
-                <h4>Copyrighting</h4>
+            <div class="panel-body issue 7 normal">
+                <div class="issue-title" onclick="location.href='/indicators/efficiency'">Copyrighting</div>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
                     <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>
                 </div>
             </div>
-            <div class="panel-body issue 8">
-                <h4>Navigation</h4>
+            <div class="panel-body issue 8 normal">
+                <div class="issue-title" onclick="location.href='/indicators/efficiency'">Navigation</div>
                 <div class="issue-actions">
                     <a class="add-to-list" data-toggle="tooltip" data-placement="top" data-original-title="Add to list" href="#"><i class="fa fa-th-list"></i></a>
                     <a class="issue-details" data-toggle="tooltip" data-placement="top" data-original-title="Details" href="#"><i class="fa fa-info-circle"></i></a>

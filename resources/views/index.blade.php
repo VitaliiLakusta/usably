@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-5">
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel panel-primary">
@@ -75,7 +75,7 @@
                             <span style="font-size:18px">Usability rate over time</span>
                         </div>
                         <div class="panel-body">
-                            <canvas id="lineChart1" height="50"></canvas>
+                            <canvas id="lineChart1" height="60"></canvas>
                         </div>
                     </div>
                 </div>
@@ -95,10 +95,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             @include('issues.critical-issues')
         </div>
-
     </div>
 
 

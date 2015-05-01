@@ -73,27 +73,38 @@ a:hover {
 .issue {
     border-bottom: 1px solid #ddd;
     padding: 15px 5px;
+    cursor: pointer;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
 }
 
-.panel > .issue:last-child {
-    border-bottom: 0;
+.issue:hover {
+    background-color: #F5F5F5;
 }
+
 
 .issue span {
     font-size: 14px;
     position: relative;
-    //left: 20px;
-}
-
-
-.panel > .issue h4 {
-    float: left;
 }
 
 .panel > .issue {
     padding: 5px 15px;
+    border: 1px solid;
+    border-color: transparent;
+    margin-bottom: 1px;
+    border-radius: 4px;
 }
 
+.panel > .issue .issue-title {
+    float: left;
+    font-size: 17px;
+    margin: 10px 0;
+    margin-right: -25px;
+}
 
 .panel-danger > .issue-heading {
     background-color: #DB524A;
@@ -117,14 +128,9 @@ a:hover {
 }
 
 .panel .issue-actions {
-    top: 8px;
+    top: 12px;
     font-size: 18px;
-}
-
- 
-
-.issue-actions a {
-    color: #ABABAB;
+    float: right;
 }
 
 .issue-actions span {
@@ -134,18 +140,33 @@ a:hover {
     top: -2px;
 }
 
+.issue-actions a {
+    color: #ABABAB;
+}
+
 .issue-actions .fa {
     font-size: 18px;
 }
 
 /* .fa-th-list class and .fa-info-class is a child class of issue-actions. */
-.issue-actions .fa-th-list:hover, .add-issue-list:hover {
+
+.issue-actions .fa-th-list, .add-issue-list {
     color: #6cb043;
     text-decoration: none;
 }
 
-.issue-actions .fa-info-circle:hover, .view-issue-details:hover {
+.issue-actions .fa-th-list:hover, .add-issue-list:hover {
+    color: #5B8344;
+    text-decoration: none;
+}
+
+.issue-actions .fa-info-circle, .view-issue-details {
     color: #327BBA;
+    text-decoration: none;
+}
+
+.issue-actions .fa-info-circle:hover, .view-issue-details:hover {
+    color: #3B5F88;
     text-decoration: none;
 }
 
@@ -240,6 +261,28 @@ a:hover {
     font-size: 36px;
 }
 
+/*priority colors*/
+
+.critical {
+    border-color: #d75452 !important;
+}
+
+.important {
+    border-color: #f5971f !important;
+}
+
+.average {
+    border-color: #f7cc38 !important;
+}
+
+.normal {
+    border-color: #acc11e !important;
+}
+
+.excellent {
+    border-color: #5fb760 !important;
+}
+
 /*|--------------------------------------------------------------------------*/
 /*| Bayram's CSS End*/
 /*|--------------------------------------------------------------------------*/
@@ -256,7 +299,6 @@ nav, .callbacks, .disable-destroy, .show-hide, .dialog, .all-themes-switch, .scr
 }
 
 nav ul li, .callbacks ul li, .disable-destroy ul li, .show-hide ul li, .dialog ul li, .all-themes-switch ul li, .scrollTo ul li {
-    float: left;
     margin: 3px 6px 3px 0;
 }
 
@@ -361,7 +403,7 @@ code {
 }
 
 .indicator-metric-row {
-    margin-bottom: 30px;
+   /*margin-bottom: 30px;*/
 }
 
 .metric-title {
