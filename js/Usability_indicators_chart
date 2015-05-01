@@ -35,8 +35,8 @@ label: "Satisfaction"
 },
 {
 value: 76,
-color: "#5AD3D1",
-highlight: "#3333FF",
+color: "#339966",
+highlight: "#00CC66",
 label: "Information overload"
 }
 
