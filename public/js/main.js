@@ -1,6 +1,22 @@
 
 Chart.defaults.global.responsive = true;
 
+
+
+/* PRIORITIES */
+var critical = "#d75452";
+var important = "#f5971f";
+var average = "#f7cc38";
+var normal = "#acc11e";
+var excellent = "#5fb760";
+
+var critical_hover = "#C72C29";
+var important_hover = "#E58C1A";
+var average_hover = "#E8BB20";
+var normal_hover = "#A3B813";
+var excellent_hover = "#52A153";
+
+
 /* create a line chart */
 // get canvas context
 function createLineChart() {
@@ -36,44 +52,45 @@ function createLineChart() {
     var myLineChart = new Chart(ctxLine).Line(dataLine);
 }
 
+
 function createPolarChart() {
     var ctxTotalURate = $("#indicators-chart").get(0).getContext("2d");
 
     var dataPolar = [
         {
             value: 95,
-            color:"#C2D05B",
-            highlight: "#C2D05B",
+            color: excellent,
+            highlight: excellent_hover,
             label: "Learnability"
         },
         {
             value: 50,
-            color: "#F4BE6B",
-            highlight: "#F4BE6B",
+            color: average,
+            highlight: average_hover,
             label: "Efficiency"
         },
         {
             value: 66,
-            color: "#E1726D",
-            highlight: "#E1726D",
+            color: normal,
+            highlight: normal_hover,
             label: "Avoiding Mistakes"
         },
         {
             value: 40,
-            color: "#64B4A8",
-            highlight: "#64B4A8",
+            color: average,
+            highlight: average_hover,
             label: "Satisfaction"
         },
         {
             value: 100,
-            color: "#00A651",
-            highlight: "#00A651",
+            color: excellent,
+            highlight: excellent_hover,
             label: "Information Overload"
         },
         {
             value: 39,
-            color: "#5894C7",
-            highlight: "#5894C7",
+            color: important,
+            highlight: important_hover,
             label: "Goal Orientation Rate"
         }
     ];

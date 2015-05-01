@@ -89,6 +89,14 @@
                             <div class="canvas-holder">
                                 <canvas id="indicators-chart"></canvas>
                             </div>
+                            <div class="chart-legend">
+                                <span class="critical">Critical</span>
+                                <span class="important">Important</span>
+                                <span class="average">Average</span>
+                                <span class="normal">Normal</span>
+                                <span class="excellent">Excellent</span>
+
+                            </div>
                             <div class="view-usably-details"><a href="/indicators/efficiency">View details<i class="fa fa-info-circle"></i></a></div>
                         </div>
                     </div>

@@ -185,7 +185,10 @@ a:hover {
 
 .view-usably-details {
     float: right;
-    font-size: 17px;
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+    left: 7px;
 }
 
 .fa {
@@ -282,6 +285,51 @@ a:hover {
 .excellent {
     border-color: #5fb760 !important;
 }
+
+
+.chart-legend span {
+    float: left;
+    margin: 5px 7px 15px 0;
+    border: none !important;
+}
+
+.chart-legend span:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    float: left;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+    
+}
+
+.chart-legend > .critical:before {
+     background-color: #d75452;
+}
+
+.chart-legend > .important:before {
+     background-color: #f5971f;
+}
+
+
+.chart-legend > .average:before {
+     background-color: #f7cc38;
+}
+
+.chart-legend > .normal:before {
+     background-color: #acc11e;
+}
+
+.chart-legend > .excellent:before {
+     background-color: #5fb760;
+}
+
+
 
 /*|--------------------------------------------------------------------------*/
 /*| Bayram's CSS End*/
