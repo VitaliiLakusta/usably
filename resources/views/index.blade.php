@@ -9,17 +9,17 @@
     <script type="text/javascript">
         $(document).ready(function(){
             //tooltip
-            $('[data-toggle="tooltip"]').tooltip(),
+    
             //add to list animation
             $('.add-to-list').click(function AddIssueToList(){
-                $(this).parent().parent('.issue').stop(true,true).animate({marginLeft:'150px',opacity:'hide'},700);
+                $(this).parent().parent('.issue').stop(true,true).animate({left:'150px',opacity:'hide'},1700);
             }),
             //success alert animation
             $(".add-to-list").click(function showSuccessAlert() {
                 setTimeout(function() {
                     $(".alert-success").alert().slideDown(700);
-                    $(".alert-success").fadeTo(1500, 1).slideUp(700, function(){
-                        $(".alert-success").hide();
+                    $(".alert-success").fadeTo(2000, 1).slideUp(700, function(){
+                    $(".alert-success").hide();
                     });
                 },300)
             }),
@@ -27,7 +27,7 @@
             $(".error").click(function showErrorAlert() {
                 setTimeout(function() {
                     $(".alert-danger").alert().slideDown(700);
-                    $(".alert-danger").fadeTo(1500, 1).slideUp(700, function(){
+                    $(".alert-danger").fadeTo(2000, 1).slideUp(700, function(){
                     $(".alert-danger").hide();
                     });
                 },300)

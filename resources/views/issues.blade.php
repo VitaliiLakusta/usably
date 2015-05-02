@@ -12,24 +12,24 @@
             $('.success-alert').click(function AddIssueToList(){
                 $(this).parent().parent().parent('.issue').stop(true,true).animate({marginLeft:'150px',opacity:'hide'},700);
             }),
-                //success alert animation
-                    $(".success-alert").click(function showSuccessAlert() {
-                        setTimeout(function() {
-                            $(".alert-success").alert().slideDown(700);
-                            $(".alert-success").fadeTo(2000, 1).slideUp(700, function(){
-                                $(".alert-success").hide();
-                            });
-                        },300);
-                    }),
-                //error alert animation
-                    $(".error-alert").click(function showErrorAlert() {
-                        setTimeout(function() {
-                            $(".alert-danger").alert().slideDown(700);
-                            $(".alert-danger").fadeTo(2000, 1).slideUp(700, function(){
-                                $(".alert-danger").hide();
-                            });
-                        },300)
+            //success alert animation
+            $(".success-alert").click(function showSuccessAlert() {
+                setTimeout(function() {
+                    $(".alert-success").alert().slideDown(700);
+                    $(".alert-success").fadeTo(2000, 1).slideUp(700, function(){
+                    $(".alert-success").hide();
                     });
+                },300);
+            }),
+            //error alert animation
+            $(".error-alert").click(function showErrorAlert() {
+                setTimeout(function() {
+                    $(".alert-danger").alert().slideDown(700);
+                    $(".alert-danger").fadeTo(2000, 1).slideUp(700, function(){
+                    $(".alert-danger").hide();
+                    });
+                },300)
+            });
         });
     </script>
 
