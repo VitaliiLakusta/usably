@@ -86,7 +86,7 @@
                         <div class="panel-heading">
                              <span style="font-size:18px">Usability Indicators</span></div>
                         <div class="panel-body">
-                            <div class="canvas-holder" style="  margin-top: 25px;">
+                            <div class="canvas-holder" style="cursor:pointer;margin-top: 25px;">
                                 <canvas  id="indicators-chart"></canvas>
                             </div>
                             <div class="chart-legend">

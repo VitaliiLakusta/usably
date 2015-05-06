@@ -70,7 +70,6 @@ function createLineChart() {
 
 function createPolarChart() {
     var ctxTotalURate = $("#indicators-chart").get(0).getContext("2d");
-
     var dataPolar = [
         {
             value: learnability_value,
@@ -110,6 +109,7 @@ function createPolarChart() {
         }
     ];
 
+
     var myPolarChart = new Chart(ctxTotalURate).PolarArea(dataPolar, {
         animation: true,
         scaleShowLine: true,
@@ -119,15 +119,26 @@ function createPolarChart() {
         onAnimationComplete : function() {
         }
     });
+    $("#indicators-chart").click( 
+            function(evt){
+                var activePoints = myPolarChart.getSegmentsAtEvent(evt);
+                var url = "/indicators/efficiency?indicator=" + activePoints[0].label + "&value=" + activePoints[0].value;
+                window.location.href= url;
+            }
+        );
+
+
+       
 }
 
-var chart_labels =  "<div class='chart-label' style='top:-228px;left:-82px;float:right;color:"+important+"'>" + learnability_value + "<small>Learnability</small></div>"+
-                    "<div class='chart-label' style='float: right;top: -132px;left: 10px;color:"+critical+"'>" + efficiency_value + "<small>Efficiency</small></div>"+
-                    "<div class='chart-label' style='float: right;left: 45px;top: -21px;color:"+normal+"'>" + avoiding_value + "<small>Avoiding Mistakes</small></div>"+
-                    "<div class='chart-label' style='float: right;top: -21px;left: -34px;color:"+normal+"'>" + satisfaction_value + "<small>Satisfaction</small></div>"+
-                    "<div class='chart-label' style='float: right;top: -130px;left: -38px;color:"+excellent+"'>" + information_value + "<small>Information<br />Overload</small></div>"+
-                    "<div class='chart-label' style='float: right;top: -228px;left: 82px;color:"+excellent+"'>" + goal_value + "<small style='left:-25px'>Goal Orientation<br />Rate</small></div>";
+var chart_labels =  "<div onClick=\"location.href='/indicators/efficiency?indicator=Learnability&value=" + learnability_value + "'\" class='chart-label' style='top:-228px;left:-82px;float:right;color:"+important+"'>" + learnability_value + "<small>Learnability</small></div>"+
+                    "<div onClick=\"location.href='/indicators/efficiency?indicator=Efficiency&value=" + efficiency_value + "'\" class='chart-label' style='float: right;top: -132px;left: 10px;color:"+critical+"'>" + efficiency_value + "<small>Efficiency</small></div>"+
+                    "<div onClick=\"location.href='/indicators/efficiency?indicator=Avoiding Mistakes&value=" + avoiding_value + "'\" class='chart-label' style='float: right;left: 45px;top: -21px;color:"+normal+"'>" + avoiding_value + "<small>Avoiding Mistakes</small></div>"+
+                    "<div onClick=\"location.href='/indicators/efficiency?indicator=Satisfaction&value=" + satisfaction_value + "'\" class='chart-label' style='float: right;top: -21px;left: -34px;color:"+normal+"'>" + satisfaction_value + "<small>Satisfaction</small></div>"+
+                    "<div onClick=\"location.href='/indicators/efficiency?indicator=Information Overload&value=" + information_value + "'\" class='chart-label' style='float: right;top: -130px;left: -38px;color:"+excellent+"'>" + information_value + "<small>Information<br />Overload</small></div>"+
+                    "<div onClick=\"location.href='/indicators/efficiency?indicator=Goal Orientation Rate&value=" + goal_value + "'\" class='chart-label' style='float: right;top: -228px;left: 82px;color:"+excellent+"'>" + goal_value + "<small style='left:-25px'>Goal Orientation<br />Rate</small></div>";
 
 createLineChart();
 createPolarChart();
 $('.canvas-holder').append(chart_labels);
+   
