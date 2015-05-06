@@ -340,6 +340,30 @@ a:hover {
     margin-left: 10px;
 }
 
+.chart-labels {
+    
+    position:relative;
+    top:-235px;
+    width:250px;
+    margin:auto;
+}
+
+.chart-label {
+    position: relative;
+    font-size: 23px;
+}
+
+.chart-label small{
+    display: block;
+    color: #717171 !important;
+    font-size: 11px;
+    position: relative;
+    top: -6px;
+    text-align: center;
+    left: -20%;
+    
+}
+
 /*|--------------------------------------------------------------------------*/
 /*| Bayram's CSS End*/
 /*|--------------------------------------------------------------------------*/

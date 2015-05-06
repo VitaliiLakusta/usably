@@ -16,6 +16,21 @@ var average_hover = "#E8BB20";
 var normal_hover = "#A3B813";
 var excellent_hover = "#52A153";
 
+var learnability_value = 36;
+var efficiency_value = 18;
+var avoiding_value = 70;
+var satisfaction_value = 78;
+var information_value = 84;
+var goal_value = 80;
+
+// var learnability_value = 100;
+// var efficiency_value = 100;
+// var avoiding_value = 100;
+// var satisfaction_value = 100;
+// var information_value = 100;
+// var goal_value = 100;
+
+
 
 /* create a line chart */
 // get canvas context
@@ -51,46 +66,46 @@ function createLineChart() {
 
     var myLineChart = new Chart(ctxLine).Line(dataLine);
 }
-
+ 
 
 function createPolarChart() {
     var ctxTotalURate = $("#indicators-chart").get(0).getContext("2d");
 
     var dataPolar = [
         {
-            value: 95,
-            color: excellent,
-            highlight: excellent_hover,
+            value: learnability_value,
+            color: important,
+            highlight: important_hover,
             label: "Learnability"
         },
         {
-            value: 50,
-            color: average,
-            highlight: average_hover,
+            value: efficiency_value,
+            color: critical,
+            highlight: critical_hover,
             label: "Efficiency"
         },
         {
-            value: 66,
+            value: avoiding_value,
             color: normal,
             highlight: normal_hover,
             label: "Avoiding Mistakes"
         },
         {
-            value: 40,
-            color: average,
-            highlight: average_hover,
+            value: satisfaction_value,
+            color: normal,
+            highlight: normal_hover,
             label: "Satisfaction"
         },
         {
-            value: 100,
+            value: information_value,
             color: excellent,
             highlight: excellent_hover,
             label: "Information Overload"
         },
         {
-            value: 39,
-            color: important,
-            highlight: important_hover,
+            value: goal_value,
+            color: excellent,
+            highlight: excellent_hover,
             label: "Goal Orientation Rate"
         }
     ];
@@ -106,5 +121,13 @@ function createPolarChart() {
     });
 }
 
+var chart_labels =  "<div class='chart-label' style='top:-228px;left:-82px;float:right;color:"+important+"'>" + learnability_value + "<small>Learnability</small></div>"+
+                    "<div class='chart-label' style='float: right;top: -132px;left: 10px;color:"+critical+"'>" + efficiency_value + "<small>Efficiency</small></div>"+
+                    "<div class='chart-label' style='float: right;left: 45px;top: -21px;color:"+normal+"'>" + avoiding_value + "<small>Avoiding Mistakes</small></div>"+
+                    "<div class='chart-label' style='float: right;top: -21px;left: -34px;color:"+normal+"'>" + satisfaction_value + "<small>Satisfaction</small></div>"+
+                    "<div class='chart-label' style='float: right;top: -130px;left: -38px;color:"+excellent+"'>" + information_value + "<small>Information<br />Overload</small></div>"+
+                    "<div class='chart-label' style='float: right;top: -228px;left: 82px;color:"+excellent+"'>" + goal_value + "<small style='left:-25px'>Goal Orientation<br />Rate</small></div>";
+
 createLineChart();
 createPolarChart();
+$('.canvas-holder').append(chart_labels);
