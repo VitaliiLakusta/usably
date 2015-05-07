@@ -372,21 +372,51 @@ a:hover {
     
 }
 
-@media (min-width: 1366px) {
+
+@media (max-width: 1000px) {
     .lb1 {
-        top:-228px;left:-82px
+          top: -338px;
+  left: 68px;
     }
     .lb2 {
-        top: -132px;left: 10px;
+          top: -182px;
+  left: 191px;
     }
     .lb3 {
-        left: 45px;top: -21px;
+         left: 195px;
+  top: -30px;
+    }
+    .lb4 {
+          top: -30px;
+  left: 46px;
+    }
+    .lb5 {
+          top: -188px;
+  left: 7px;
+    }
+
+    .lb6 {
+          top: -338px;
+  left: 162px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .lb1 {
+        top:-228px;left:-72px
+    }
+    .lb2 {
+        top: -132px;left: 20px;
+    }
+    .lb3 {
+        left: 55px;top: -21px;
     }
     .lb4 {
         top: -21px;left: -34px;
     }
     .lb5 {
-        top: -132px;left: -58px;
+        top: -132px;left: -34px;
     }
 
     .lb6 {
@@ -396,27 +426,47 @@ a:hover {
 
 @media (min-width: 1600px) {
     .lb1 {
-          top: -338px;
-  left: 87px;
+            top: -285px;
+  left: -26px;
     }
     .lb2 {
-          top: -172px;
-  left: 205px;
+         top: -142px;
+  left: 90px;   
     }
     .lb3 {
         left: 185px;top: -21px;
     }
     .lb4 {
-        top: -21px;left: 26px;
+        top: -21px;left: 56px;
     }
     .lb5 {
-          top: -202px;
-  left: 2px;
+        top: -182px;left: 12px;
     }
 
     .lb6 {
-          top: -338px;
-  left: 142px;
+         top: -345px;left: 162px;
+   
+
+
+@media (min-width: 1900px) {
+    .lb1 {
+          top: -345px;left: 68px;
+    }
+    .lb2 {
+       top: -182px; left: 195px;
+    }
+    .lb3 {
+        left: 185px;top: -21px;
+    }
+    .lb4 {
+        top: -21px;left: 56px;
+    }
+    .lb5 {
+        top: -182px;left: 12px;
+    }
+
+    .lb6 {
+         top: -345px;left: 162px;
     }
 }
 
