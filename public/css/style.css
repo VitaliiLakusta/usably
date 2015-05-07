@@ -371,7 +371,7 @@ a:hover {
     left: -20%;
     
 }
-
+/*
 @media (max-width: 1000px) {
     .lb1 {
           top: -338px; left: 68px;
@@ -393,7 +393,6 @@ a:hover {
           top: -338px;left: 162px;
     }
 }
-
 
 @media (min-width: 1200px) {
     .lb1 {
@@ -423,7 +422,6 @@ a:hover {
     }
 }
 
-
 @media (min-width: 1300px) {
     .lb1 {
         top:-228px;left:-72px
@@ -445,8 +443,6 @@ a:hover {
          top: -228px;left: 72px;
     }
 }
-
-
 
 @media (min-width: 1600px) {
     .lb1 {
@@ -470,7 +466,6 @@ a:hover {
     }
 }
 
-
 @media (min-width: 1900px) {
     .lb1 {
         top: -345px;left: 68px;
@@ -491,7 +486,7 @@ a:hover {
     .lb6 {
          top: -345px;left: 162px;
     }
-}
+}*/
 
 /*|--------------------------------------------------------------------------*/
 /*| Bayram's CSS End*/
