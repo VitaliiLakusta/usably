@@ -115,8 +115,11 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav side-nav">
             <li class="active">
-                <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-dashboard"></i> Dashboard <i class="fa fa-fw fa-caret-down"></i></a>
-                <ul id="demo" class="collapse">
+                <a href="/indicators"><i class="fa fa-fw fa-dashboard"></i> Dashboard </a>
+            </li>
+            <li class="active">
+                <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-pie-chart"></i> Indicators <i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="demo" class="">
                     <li>
                         <a href="/indicators/efficiency">Learnability</a>
                     </li>
