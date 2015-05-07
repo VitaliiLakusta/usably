@@ -65,9 +65,6 @@
                     <div class="view-usably-details"><a href="/indicators/efficiency">View details<i class="fa fa-info-circle"></i></a></div>
                 </div>
             </div>
-        </div>
-
-        <div class="col-md-5">
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel panel-primary">
@@ -80,6 +77,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="col-md-5">
             <div class="row usability-indicators-chart-row">
                 <div class="col-md-12">
                     <div class="panel panel-primary">
