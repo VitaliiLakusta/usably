@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'IndicatorsController@index');
 Route::get('issues', 'IssuesController@index');
 Route::get('knowledge-base', function() {
     return view('knowledge-base');
