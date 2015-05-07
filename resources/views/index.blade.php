@@ -9,7 +9,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             //tooltip
-    
+            $('[data-toggle="tooltip"]').tooltip(),
             //add to list animation
             $('.add-to-list').click(function AddIssueToList(){
                 $(this).parent().parent('.issue').stop(true,true).animate({left:'150px',opacity:'hide'},1700);
@@ -18,7 +18,7 @@
             $(".add-to-list").click(function showSuccessAlert() {
                 setTimeout(function() {
                     $(".alert-success").alert().slideDown(700);
-                    $(".alert-success").fadeTo(2000, 1).slideUp(700, function(){
+                    $(".alert-success").fadeTo(1500, 1).slideUp(700, function(){
                     $(".alert-success").hide();
                     });
                 },300)
@@ -27,7 +27,7 @@
             $(".error").click(function showErrorAlert() {
                 setTimeout(function() {
                     $(".alert-danger").alert().slideDown(700);
-                    $(".alert-danger").fadeTo(2000, 1).slideUp(700, function(){
+                    $(".alert-danger").fadeTo(1500, 1).slideUp(700, function(){
                     $(".alert-danger").hide();
                     });
                 },300)
@@ -87,14 +87,14 @@
                              <span style="font-size:18px">Usability Indicators</span></div>
                         <div class="panel-body">
                             <div class="canvas-holder" style="cursor:pointer;margin-top: 25px;">
-                                <canvas  id="indicators-chart"></canvas>
+                                <canvas id="indicators-chart"></canvas>
                             </div>
-                            <div class="chart-legend">
-                                <span class="critical">Critical</span>
-                                <span class="important">Important</span>
-                                <span class="average">Average</span>
-                                <span class="normal">Normal</span>
-                                <span class="excellent">Excellent</span>
+                            <div class="col-md-12 chart-legend">
+                                <span class="col-md-2 critical">Critical</span>
+                                <span class="col-md-2 important">Important</span>
+                                <span class="col-md-2 average">Average</span>
+                                <span class="col-md-2 normal">Normal</span>
+                                <span class="col-md-2 excellent">Excellent</span>
 
                             </div>
                             <div class="view-usably-details"><a href="/indicators/efficiency">View details<i class="fa fa-info-circle"></i></a></div>
