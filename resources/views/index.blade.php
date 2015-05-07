@@ -75,7 +75,7 @@
                             <span style="font-size:18px">Usability rate over time</span>
                         </div>
                         <div class="panel-body">
-                            <canvas id="lineChart1" height="60"></canvas>
+                            <canvas id="lineChart1"></canvas>
                         </div>
                     </div>
                 </div>

@@ -141,10 +141,10 @@
                 </ul>
             </li>
             <li>
-                <a class="link-to-issue" href="/issues"><i class="fa fa-th-list"></i> Issues & Fixes <span class="issue-notify">10</span></a>
+                <a class="link-to-issue" href="/issues"><i class="fa fa-th-list"></i> My To-do List <span class="issue-notify">10</span></a>
             </li>
             <li>
-                <a href="/knowledge-base"><i class="fa fa-book"></i> Knowledge Base</a>
+                <a href="/knowledge-base"><i class="fa fa-book"></i>Best Practices</a>
             </li>
         </ul>
     </div>

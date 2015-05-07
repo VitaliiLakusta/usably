@@ -84,12 +84,12 @@
                         <canvas id="star_rate" width="70" height="70"></canvas>
                     </div>
                     <div class="col-md-6 usably_rate_info">
-                        <span id="counter" data-fill="60"></span><span style="font-size:70%;color:#0F426E">/100</span>
+                        <span id="counter" data-fill="18"></span><span style="font-size:70%;color:#0F426E">/100</span>
                         <span style="font-size:50%;font-weight:bold;display:block;margin-left:-25px">Efficiency Rate</span>
                     </div>
                 </div>
                 <div class="panel-body">
-                    <div class="view-usably-details"><a href="#">View details<i class="fa fa-info-circle"></i></a></div>
+                    
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
                     <span style="font-size:18px">Efficiency rate over time</span>
                 </div>
                 <div class="panel-body">
-                    <canvas id="lineChart1" height="50"></canvas>
+                    <canvas id="lineChart1" height="70"></canvas>
                 </div>
             </div>
         </div>
@@ -109,11 +109,7 @@
             <div class="panel panel-primary indicator-description-box">
                 <div class="panel-body">
                     <div class="issue-title" onclick="location.href='/indicators/efficiency'">Efficiency Description</div>
-                    Efficiency means lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                    lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                    <div class="view-usably-details">
-                        <a href="#">View details<i class="fa fa-info-circle"></i></a>
-                    </div>
+                    Efficiency is a skill in avoiding wasted time and effort. It is important to incorporate programming techniques that will make the implementation and maintenance of your website efficient. In addition, these techniques make your website widely compatible with most operating systems and Web browsers.
                 </div>
             </div>
         </div>
@@ -143,14 +139,9 @@
             </div>
             <div class="col-md-6 col-metric-description">
                 <p class="metric-description">
-                    <strong>35 % of your users</strong> make form validation errors
+                    <strong>55 % of your users</strong> make form validation errors
                     <br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Each field you ask for runs the risk of making your visitors turn around and give up. Not everyone types at the same speed, while typing on mobile devices is still a chore in general. Question if each field is really necessary and remove as many fields as possible. If you really have numerous optional fields, then also consider moving them after form submission on a separate page or state. It's so easy to bloat up your forms, yet fewer fields will convert better.
                 </p>
             </div>
             <div class="col-md-4 col-metric-issues">
@@ -174,7 +165,7 @@
                     <div class="panel-body issue 2 critical">
                         <div class="issue-title" onclick="location.href='/indicators/efficiency'">Unfinished checkout rate</div>
                         <div class="issue-actions">
-                            <a class="add-to-list error" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
+                            <a class="error" data-toggle="tooltip" data-placement="top" data-original-title="Add to list"><i class="fa fa-th-list"></i></a>
                             <a data-toggle="tooltip" data-placement="top" href="/knowledge-base" data-original-title="Details"><i class="fa fa-info-circle"></i></a>
                         </div>
                     </div>
@@ -203,13 +194,13 @@
         <hr class="hr-small-margin">
         <div class="row indicator-metric-content">
             <div class="col-md-2 col-metric-chart">
-                <div class="progress-pie-chart" data-percent="55">
-                    <div class="ppc-progress">
-                        <div class="ppc-progress-fill"></div>
+                <div class="progress-pie-chart2" data-percent="20">
+                    <div class="ppc-progress2">
+                        <div class="ppc-progress-fill2"></div>
                     </div>
-                    <div class="ppc-percents">
-                        <div class="pcc-percents-wrapper">
-                            <span>%</span>
+                    <div class="ppc-percents2">
+                        <div class="pcc-percents-wrapper2">
+                            <span>20%</span>
                         </div>
                     </div>
                 </div>
@@ -219,14 +210,9 @@
             </div>
             <div class="col-md-6 col-metric-description">
                 <p class="metric-description">
-                    <strong>35 % of your users</strong> make form validation errors
+                    <strong>20% of your users</strong> make form validation errors
                     <br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        The abandonment rate is the ratio of the number of abandoned shopping carts to the number of initiated transactions or to the number of completed transactions. The typical shopping cart abandonment rate for online retailers varies
                 </p>
             </div>
             <div class="col-md-4 col-metric-issues">

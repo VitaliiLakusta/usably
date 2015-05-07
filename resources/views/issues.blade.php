@@ -37,12 +37,12 @@
 
 @section('content')
 
-    <h2>Issues and Fixes <small>Task lists</small></h2>
+    <h2>My To-do List<small>Task lists</small></h2>
     <hr />
     <ol class="breadcrumb">
         <i class="fa fa-tasks"></i>
         <li><a href="#">Issues and Fixes</a></li>
-        <li class="active">Task Lists</li>
+        <li class="active">Issues to Fix</li>
     </ol>
     <div class="row">
         <div class="alert alert-success" style="display:none;">
@@ -67,8 +67,8 @@
         <div class="tab-content indicator-desc">
             <div role="tabpanel" class="tab-pane active" id="efficiency">
                 <ul class="nav nav-tabs issue-tabs-second" role="tablist">
-                    <li role="presentation" class="active"><a href="#efficiency-listed" data-toggle="tab"></i>Listed Fixes (6)</a></li>
-                    <li role="presentation"><a href="#efficiency-recommended" data-toggle="tab"></i>Recommended Fixes (10)</a> </li>
+                    <li role="presentation" class="active"><a href="#efficiency-listed" data-toggle="tab"></i>Issues to Fix (6)</a></li>
+                    <li role="presentation"><a href="#efficiency-recommended" data-toggle="tab"></i>Reccomended (10)</a> </li>
                     <li role="presentation"><a href="#efficiency-fixed" data-toggle="tab"></i>Fixed (3)</a></li>
                 </ul>
                 <div class="tab-content">
@@ -343,9 +343,9 @@
             </div>
             <div role="tabpanel" class="tab-pane" id="avoiding_mistakes">
                 <ul class="nav nav-tabs issue-tabs-second" role="tablist">
-                    <li role="presentation" class="active"><a href="#avoiding_mistakes-listed" data-toggle="tab"></i>Listed Fixes (6)</a></li>
-                    <li role="presentation"><a href="#avoiding_mistakes-recommended" data-toggle="tab"></i>Recommended Fixes (10)</a> </li>
-                    <li role="presentation"><a href="#avoiding_mistakes-fixed" data-toggle="tab"></i>Fixed (3)</a></li>
+                    <li role="presentation" class="active"><a href="#avoiding_mistakes-listed" data-toggle="tab"></i>Issues to Fix (3)</a></li>
+                    <li role="presentation"><a href="#avoiding_mistakes-recommended" data-toggle="tab"></i>Reccomended (5)</a> </li>
+                    <li role="presentation"><a href="#avoiding_mistakes-fixed" data-toggle="tab"></i>Fixed (2)</a></li>
                 </ul>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="avoiding_mistakes-listed">

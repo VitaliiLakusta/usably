@@ -40,6 +40,7 @@
     	text-align: justify;
     }
     </style>
+    
 @stop
 
 @section('content')
@@ -80,7 +81,7 @@
                 <div class="panel-heading" role="tab" id="headingOne">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" class="collaps-toggle" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <h3>Try A One Column Layout instead of multicolumns.</h3>
+                      <h3><i class="fa fa-columns"></i>Try A One Column Layout instead of multicolumns.</h3>
                     </a>
                   </h4>
                 </div>
@@ -104,7 +105,7 @@
                 <div class="panel-heading" role="tab" id="headingTwo">
                   <h4 class="panel-title">
                     <a class="collapsed collaps-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      <h3>Try Giving a Gift instead of closing a sale right away.</h3>
+                      <h3><i class="fa fa-gift"></i>Try Giving a Gift instead of closing a sale right away.</h3>
                     </a>
                   </h4>
                 </div>
@@ -128,7 +129,7 @@
                 <div class="panel-heading" role="tab" id="headingThree">
                   <h4 class="panel-title">
                     <a class="collapsed collaps-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      <h3>Try Merging Similar Functions instead of fragmenting the UI.</h3>
+                      <h3><i class="fa fa-th-large"></i>Try Merging Similar Functions instead of fragmenting the UI.</h3>
                     </a>
                   </h4>
                 </div>
@@ -152,7 +153,7 @@
                 <div class="panel-heading" role="tab" id="headingFour">
                   <h4 class="panel-title">
                     <a class="collapsed collaps-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      <h3>Try Social Proof instead of talking about yourself.</h3>
+                      <h3><i class="fa fa-users"></i>Try Social Proof instead of talking about yourself.</h3>
                     </a>
                   </h4>
                 </div>
@@ -176,7 +177,7 @@
                 <div class="panel-heading" role="tab" id="headingFive">
                   <h4 class="panel-title">
                     <a class="collapsed collaps-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                      <h3>Try Keeping Focus instead of drowning with links.</h3>
+                      <h3><i class="fa fa-crosshairs"></i>Try Keeping Focus instead of drowning with links.</h3>
                     </a>
                   </h4>
                 </div>
@@ -205,7 +206,7 @@
                 <div class="panel-heading" role="tab" id="headingSix">
                   <h4 class="panel-title">
                     <a class="collapsed collaps-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                      <h3>Lorem Ipsum</h3>
+                      <h3><i class="fa fa-columns"></i>Lorem Ipsum</h3>
                     </a>
                   </h4>
                 </div>
@@ -229,7 +230,7 @@
                 <div class="panel-heading" role="tab" id="headingSeven">
                   <h4 class="panel-title">
                     <a class="collapsed collaps-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                      <h3>Lorem Ipsum</h3>
+                      <h3><i class="fa fa-columns"></i>Lorem Ipsum</h3>
                     </a>
                   </h4>
                 </div>
@@ -253,7 +254,7 @@
                 <div class="panel-heading" role="tab" id="headingEight">
                   <h4 class="panel-title">
                     <a class="collapsed collaps-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                      <h3>Lorem Ipsum</h3>
+                      <h3><i class="fa fa-columns"></i>Lorem Ipsum</h3>
                     </a>
                   </h4>
                 </div>
