@@ -5,6 +5,32 @@
 @stop
 
 @section('header')
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //add to list animation
+            $('.success-alert').click(function AddIssueToList(){
+                $(this).parent().parent().parent().parent().parent().stop(true,true).animate({marginLeft:'150px',opacity:'hide'},700);
+            }),
+            //success alert animation
+            $(".success-alert").click(function showSuccessAlert() {
+                setTimeout(function() {
+                    $(".alert-success").alert().slideDown(700);
+                    $(".alert-success").fadeTo(2000, 1).slideUp(700, function(){
+                    $(".alert-success").hide();
+                    });
+                },300);
+            }),
+            //error alert animation
+            $(".error-alert").click(function showErrorAlert() {
+                setTimeout(function() {
+                    $(".alert-danger").alert().slideDown(700);
+                    $(".alert-danger").fadeTo(2000, 1).slideUp(700, function(){
+                    $(".alert-danger").hide();
+                    });
+                },300)
+            });
+        });
+    </script>
     <style type="text/css">
     
     .panel-group .panel-heading {
@@ -36,11 +62,14 @@
     .col-md-4 {
     	padding-top: 14px;
     }
+
+    .fa {
+      padding-right: 20px;
+    }
     p {
     	text-align: justify;
     }
     </style>
-    
 @stop
 
 @section('content')
@@ -94,8 +123,8 @@
                             <div class="col-md-4">
                                 <p>A one column layout will give you more control over your narrative. It should be able to guide your readers in a more predictable way from top to bottom. Whereas a multi column approach runs some additional risk of being distracting to the core purpose of a page. Guide people with a story and a prominent call to action at the end.</p>
                             </div>
-                            <div class="col-md-2" style="position: relative;bottom: 0;right: 0; min-height: 200px;" >
-                                <a style="position: absolute; bottom: 0" href="#" class="btn btn-primary btn-md" role="button"><i class="fa fa-th-list"></i>Add to list</a>
+                            <div class="col-md-2 issue-actions">
+                                  <a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a>
                             </div>
                         </div>
                   </div>
@@ -118,9 +147,9 @@
                             <div class="col-md-4">
                                 <p>A friendly gesture such as providing a customer with a gift can be just that. Deeper underneath however, gifting is also an effective persuasion tactic that is based on the rule of reciprocity. As obvious as it sounds, being nice to someone by offering a small token of appreciation can come back in your favour down the road.</p>
                             </div>
-                             <div class="col-md-2" style="position: relative;bottom: 0;right: 0;  min-height: 200px;" >
-                                <a style="position: absolute; bottom: 0" href="#" class="btn btn-primary btn-md" role="button"><i class="fa fa-th-list"></i>Add to list</a>
-                            </div>
+                             <div class="col-md-2 issue-actions">
+     <a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a>
+</div>
                         </div>
                     </div>
                   </div>
@@ -142,9 +171,9 @@
                             <div class="col-md-4">
                                 <p>Over the course of time, it's easy to unintentionally create multiple sections, elements and features which all perform the same function. It's basic entropy - things start falling apart over time. Keep an eye out for duplicate functionality labelled in various ways, as it puts a strain on your customers. Often, the more UI fragmentation there is, the higher the learning curve which your customers will have to deal with. Consider refactoring your UI once in a while by merging similar functions together.</p>
                             </div>
-                             <div class="col-md-2" style="position: relative;bottom: 0;right: 0;  min-height: 200px;" >
-                                <a style="position: absolute; bottom: 0" href="#" class="btn btn-primary btn-md" role="button"><i class="fa fa-th-list"></i>Add to list</a>
-                            </div>
+                             <div class="col-md-2 issue-actions">
+                               <a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a>
+                          </div>
                         </div>
                     </div>
                   </div>
@@ -166,9 +195,9 @@
                             <div class="col-md-4">
                                 <p>Social proof is another great persuasion tactic directly applicable to increasing conversion rates. Seeing that others are endorsing you and talking about your offering, can be a great way to reinforce a call to action. Try a testimonial or showing data which proves that others are present.</p>
                             </div>
-                             <div class="col-md-2" style="position: relative;bottom: 0;right: 0; min-height:200px" >
-                                <a style="position: absolute; bottom: 0" href="#" class="btn btn-primary btn-md" role="button"><i class="fa fa-th-list"></i>Add to list</a>
-                            </div>
+                             <div class="col-md-2 issue-actions">
+                               <a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a>
+                          </div>
                         </div>
                     </div>
                   </div>
@@ -190,9 +219,9 @@
                             <div class="col-md-4">
                                 <p>It’s easy to create a page with lots of links going left and right in the hope of meeting as many customer needs as possible. If however you’re creating a narrative page which is building on towards a specific call to action at the bottom, then think twice. Be aware that any link above the primary CTA runs the risk of taking your customers away from what you’ve been hoping them to do. Keep an eye out on the number of links on your pages and possibly balance discovery style pages (a bit heavier on the links) with tunnel style pages (with fewer links and higher conversions). Removing extraneous links can be a sure way to increase someone’s chances of reaching that important button..</p>
                             </div>
-                            <div class="col-md-2" style="position: relative;bottom: 0;right: 0; min-height: 200px;" >
-                                <a style="position: absolute; bottom: 0" href="#" class="btn btn-primary btn-md" role="button"><i class="fa fa-th-list"></i>Add to list</a>
-                            </div>
+                           <div class="col-md-2 issue-actions">
+                               <a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a>
+                          </div>
                         </div>
                   </div>
                 </div>
@@ -219,9 +248,9 @@
                             <div class="col-md-4">
                                 <p>Candy liquorice tootsie roll. Jelly beans wafer marshmallow muffin dragee brownie brownie. Gummi bears sweet souffle cheesecake lemon drops donut jujubes sesame snaps sweet. Macaroon chocolate cake chocolate cake chupa chups caramels cake wafer sweet roll. Sweet roll pudding cake. Jelly-o chocolate cake halvah cotton candy. Macaroon chocolate cake chocolate cake chupa chups caramels cake wafer sweet roll. Sweet roll pudding cake. Jelly-o chocolate cake halvah cotton candy.</p>
                             </div>
-                             <div class="col-md-2" style="position: relative;bottom: 0;right: 0;  min-height: 200px;" >
-                                <a style="position: absolute; bottom: 0" href="#" class="btn btn-primary btn-md" role="button"><i class="fa fa-th-list"></i>Add to list</a>
-                            </div>
+                            <div class="col-md-2 issue-actions">
+                               <a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a>
+                          </div>
                         </div>
                     </div>
                   </div>
@@ -243,9 +272,9 @@
                             <div class="col-md-4">
                                 <p>Candy liquorice tootsie roll. Jelly beans wafer marshmallow muffin dragee brownie brownie. Gummi bears sweet souffle cheesecake lemon drops donut jujubes sesame snaps sweet. Macaroon chocolate cake chocolate cake chupa chups caramels cake wafer sweet roll. Sweet roll pudding cake. Jelly-o chocolate cake halvah cotton candy. Macaroon chocolate cake chocolate cake chupa chups caramels cake wafer sweet roll. Sweet roll pudding cake. Jelly-o chocolate cake halvah cotton candy.</p>
                             </div>
-                             <div class="col-md-2" style="position: relative;bottom: 0;right: 0;  min-height: 200px;" >
-                                <a style="position: absolute; bottom: 0" href="#" class="btn btn-primary btn-md" role="button"><i class="fa fa-th-list"></i>Add to list</a>
-                            </div>
+                            <div class="col-md-2 issue-actions">
+                               <a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a>
+                          </div>
                         </div>
                     </div>
                   </div>
@@ -267,9 +296,9 @@
                             <div class="col-md-4">
                                 <p>Candy liquorice tootsie roll. Jelly beans wafer marshmallow muffin dragee brownie brownie. Gummi bears sweet souffle cheesecake lemon drops donut jujubes sesame snaps sweet. Macaroon chocolate cake chocolate cake chupa chups caramels cake wafer sweet roll. Sweet roll pudding cake. Jelly-o chocolate cake halvah cotton candy. Macaroon chocolate cake chocolate cake chupa chups caramels cake wafer sweet roll. Sweet roll pudding cake. Jelly-o chocolate cake halvah cotton candy.</p>
                             </div>
-                             <div class="col-md-2" style="position: relative;bottom: 0;right: 0; min-height:200px" >
-                                <a style="position: absolute; bottom: 0" href="#" class="btn btn-primary btn-md" role="button"><i class="fa fa-th-list"></i>Add to list</a>
-                            </div>
+                            <div class="col-md-2 issue-actions">
+                               <a class="add-issue-list success-alert" href="#"><span>Add to list</span><i class="fa fa-th-list"></i></a>
+                          </div>
                         </div>
                     </div>
                   </div>

@@ -90,11 +90,11 @@
                                 <canvas id="indicators-chart"></canvas>
                             </div>
                             <div class="col-md-12 chart-legend">
-                                <span class="col-md-2 critical">Critical</span>
-                                <span class="col-md-2 important">Important</span>
-                                <span class="col-md-2 average">Average</span>
-                                <span class="col-md-2 normal">Normal</span>
-                                <span class="col-md-2 excellent">Excellent</span>
+                                <span class="critical">Critical</span>
+                                <span class="important">Important</span>
+                                <span class="average">Average</span>
+                                <span class="normal">Normal</span>
+                                <span class="excellent">Excellent</span>
 
                             </div>
                             <div class="view-usably-details"><a href="/indicators/efficiency">View details<i class="fa fa-info-circle"></i></a></div>
