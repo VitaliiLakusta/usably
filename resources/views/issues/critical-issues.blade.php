@@ -1,7 +1,7 @@
 <div class="alert alert-success" style="display:none;">
     <a class="close" data-dismiss="alert">&times;</a>
     <strong>Success!</strong> Issue has been added to list succesfully. <br />
-    <button type="button" class="btn btn-success" aria-expanded="false" onclick="location.href='/issues'">Go to Issues & Fixes</button>
+    <button type="button" class="btn btn-success" aria-expanded="false" onclick="location.href='/issues'">Go to To-do List</button>
 </div>
 
 <div class="alert alert-danger" style="display:none;">
