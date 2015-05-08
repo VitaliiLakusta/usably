@@ -1,11 +1,15 @@
 @extends('app')
 
-@section('navigation')
-    @include('partials.navigation');
-@stop
+ 
+
 
 @section('header')
-
+<style type="text/css">
+    .link-to-issue {
+    outline: none;
+    background-color: #000 !important;
+}
+</style>
     <script type="text/javascript">
         $(document).ready(function(){
             //add to list animation
@@ -34,7 +38,9 @@
     </script>
 
 @stop
-
+@section('navigation')
+    @include('partials.navigation');
+@stop
 @section('content')
 
     <h2>My To-do List<small>Task lists</small></h2>

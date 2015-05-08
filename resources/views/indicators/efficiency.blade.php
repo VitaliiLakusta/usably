@@ -1,10 +1,13 @@
 @extends('app')
 
-@section('navigation')
-    @include('partials.navigation');
-@stop
 
 @section('header')
+<style type="text/css">
+    .link-to-efficiency {
+    outline: none;
+    background-color: #000 !important;
+}
+</style>
     <script type="text/javascript" src="/js/rating_star.js"></script>
     <script type="text/javascript" src="/js/progress-circle.js"></script>
     <script type="text/javascript">
@@ -46,6 +49,9 @@
                     });
         });
     </script>
+@stop
+@section('navigation')
+    @include('partials.navigation');
 @stop
 
 @section('content')

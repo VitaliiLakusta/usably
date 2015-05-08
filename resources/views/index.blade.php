@@ -1,9 +1,5 @@
 @extends('app')
 
-@section('navigation')
-    @include('partials.navigation');
-@stop
-
 @section('header')
     <script type="text/javascript" src="/js/rating_star.js"></script>
     <script type="text/javascript">
@@ -36,7 +32,9 @@
 
     </script>
 @stop
-
+@section('navigation')
+    @include('partials.navigation');
+@stop
 @section('content')
     <div class="row">
         <div class="col-md-12">

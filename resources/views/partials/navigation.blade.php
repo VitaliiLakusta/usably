@@ -1,4 +1,4 @@
-<!-- Navigation -->
+ <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -117,14 +117,14 @@
             <li class="active">
                 <a href="/indicators"><i class="fa fa-fw fa-dashboard"></i> Dashboard </a>
             </li>
-            <li class="active">
+            <li>
                 <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-pie-chart"></i> Indicators <i class="fa fa-fw fa-caret-down"></i></a>
                 <ul id="demo" class="">
-                    <li>
+                    <li >
                         <a href="/indicators/efficiency">Learnability</a>
                     </li>
                     <li>
-                        <a href="/indicators/efficiency">Efficiency</a>
+                        <a class="link-to-efficiency" href="/indicators/efficiency">Efficiency</a>
                     </li>
                     <li>
                         <a href="/indicators/efficiency">Avoiding Mistakes</a>
@@ -144,7 +144,7 @@
                 <a class="link-to-issue" href="/issues"><i class="fa fa-th-list"></i> My To-do List <span class="issue-notify">10</span></a>
             </li>
             <li>
-                <a href="/knowledge-base"><i class="fa fa-book"></i>Best Practices</a>
+                <a class="link-to-practices" href="/knowledge-base"><i class="fa fa-book"></i>Best Practices</a>
             </li>
         </ul>
     </div>

@@ -1,8 +1,5 @@
 @extends('app')
 
-@section('navigation')
-    @include('partials.navigation');
-@stop
 
 @section('header')
     <script type="text/javascript">
@@ -69,7 +66,14 @@
     p {
     	text-align: justify;
     }
+  .link-to-practices {
+    outline: none;
+    background-color: #000 !important;
+}
     </style>
+@stop
+@section('navigation')
+    @include('partials.navigation');
 @stop
 
 @section('content')
